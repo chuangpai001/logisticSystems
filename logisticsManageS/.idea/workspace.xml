@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="299324bc-d34b-4921-a0c7-51f60c43c6e9" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\hasee\WebstormProjects\logisticsManageS\exportToHTML" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="logisticsManageS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TransportSystem2_2_1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/delivery_center/TransportSystem2_2_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransportSystem2_3_1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/delivery_center/TransportSystem2_3_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransportSystem3_4.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/delivery_center/TransportSystem3_4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="97" lean-forward="true" selection-start-line="6" selection-start-column="97" selection-end-line="6" selection-end-column="97" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransportSystem3_4_1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/delivery_center/TransportSystem3_4_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="129" column="54" lean-forward="false" selection-start-line="129" selection-start-column="54" selection-end-line="129" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invoice_register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/finace/invoice_register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="200" column="68" lean-forward="false" selection-start-line="200" selection-start-column="68" selection-end-line="200" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="localStorage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/finace/localStorage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="166" column="14" lean-forward="false" selection-start-line="166" selection-start-column="14" selection-end-line="166" selection-end-column="14" />
+              <folding>
+                <element signature="e#17606#17612#0" expanded="true" />
+                <element signature="n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#29865#29871#0" expanded="true" />
+                <element signature="e#29871#29877#0" expanded="true" />
+                <element signature="e#29978#29984#0" expanded="true" />
+                <element signature="e#29984#29990#0" expanded="true" />
+                <element signature="n#div#2;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#42231#42237#0" expanded="true" />
+                <element signature="e#42237#42243#0" expanded="true" />
+                <element signature="e#42348#42354#0" expanded="true" />
+                <element signature="e#42354#42360#0" expanded="true" />
+                <element signature="n#div#3;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#54605#54611#0" expanded="true" />
+                <element signature="e#54611#54617#0" expanded="true" />
+                <element signature="e#54722#54728#0" expanded="true" />
+                <element signature="e#54728#54734#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mianPage.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/mianPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="94" lean-forward="true" selection-start-line="6" selection-start-column="94" selection-end-line="6" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xindingluru.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/cutomer_service/xindingluru.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="worker.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/finace/worker.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="490" column="44" lean-forward="false" selection-start-line="490" selection-start-column="44" selection-end-line="492" selection-end-column="49" />
+              <folding>
+                <element signature="e#28466#28472#0" expanded="true" />
+                <element signature="e#28472#28478#0" expanded="true" />
+                <element signature="e#28583#28589#0" expanded="true" />
+                <element signature="e#28589#28595#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="provider_count.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/finace/provider_count.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="689" column="37" lean-forward="true" selection-start-line="689" selection-start-column="37" selection-end-line="689" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XHTML File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nav-item ng-scope</find>
+      <find>acti</find>
+      <find>ac</find>
+      <find>from</find>
+      <find>form</find>
+      <find>&lt;/html</find>
+      <find>&lt;div class=&quot;viewFramework-product viewFramework-product-col-1&quot;&gt;  				&lt;div class=&quot;viewFramework-product-navbar ng-scope&quot;&gt; 					&lt;div class=&quot;product-nav-stage ng-scope product-nav-stage-main&quot;&gt;  						&lt;div class=&quot;product-nav-scene product-nav-main-scene&quot;&gt; 							&lt;div class=&quot;product-nav-title ng-scope&quot;&gt;操作菜单&lt;/div&gt; 							&lt;div class=&quot;ng-isolate-scope&quot;&gt;&lt;/div&gt; 							&lt;div class=&quot;product-nav-list&quot;&gt;    								&lt;li class=&quot;&quot;&gt; 									&lt;div class=&quot;ng-isolate-scope&quot;&gt; 										&lt;a href=&quot;PI.html&quot; class=&quot;ng-scope&quot;&gt; 											&lt;div class=&quot;nav-icon&quot;&gt;&lt;/div&gt; 											&lt;div class=&quot;nav-title&quot;&gt;客户维护管理&lt;/div&gt; 										&lt;/a&gt; 									&lt;/div&gt; 								&lt;/li&gt; 								&lt;/li&gt; 								&lt;li class=&quot;&quot;&gt; 									&lt;div class=&quot;ng-isolate-scope&quot;&gt; 										&lt;a href=&quot;luru.html&quot; class=&quot;ng-scope&quot;&gt; 											&lt;div class=&quot;nav-icon&quot;&gt;&lt;/div&gt; 											&lt;div class=&quot;nav-title&quot;&gt;客户信息录入&lt;/div&gt; 										&lt;/a&gt; 									&lt;/div&gt; 								&lt;/li&gt; 								&lt;li class=&quot;&quot;&gt; 									&lt;div class=&quot;ng-isolate-scope&quot;&gt; 										&lt;a href=&quot;xindingluru.html&quot; class=&quot;ng-scope&quot;&gt; 											&lt;div class=&quot;nav-icon&quot;&gt;&lt;/div&gt; 											&lt;div class=&quot;nav-title&quot;&gt;新订&lt;/div&gt; 										&lt;/a&gt; 									&lt;/div&gt; 								&lt;/li&gt; 								&lt;li class=&quot;active&quot;&gt; 									&lt;div class=&quot;ng-isolate-scope&quot;&gt; 										&lt;a href=&quot;tuiding.html&quot; class=&quot;ng-scope&quot;&gt; 											&lt;div class=&quot;nav-icon&quot;&gt;&lt;/div&gt; 											&lt;div class=&quot;nav-title&quot;&gt;退订&lt;/div&gt; 										&lt;/a&gt; 									&lt;/div&gt; 								&lt;/li&gt; 								&lt;li class=&quot;&quot;&gt; 									&lt;div class=&quot;ng-isolate-scope&quot;&gt; 										&lt;a href=&quot;huanhuo.html&quot; class=&quot;ng-scope&quot;&gt; 											&lt;div class=&quot;nav-icon&quot;&gt;&lt;/div&gt; 											&lt;div class=&quot;nav-title&quot;&gt;换货&lt;/div&gt; 										&lt;/a&gt; 									&lt;/div&gt; 								&lt;/li&gt; 								&lt;li class=&quot;&quot;&gt; 									&lt;div class=&quot;ng-isolate-scope&quot;&gt; 										&lt;a href=&quot;tuihuo.html&quot; class=&quot;ng-scope&quot;&gt; 											&lt;div class=&quot;nav-icon&quot;&gt;&lt;/div&gt; 											&lt;div class=&quot;nav-title&quot;&gt;退货&lt;/div&gt; 										&lt;/a&gt; 									&lt;/div&gt; 								&lt;/li&gt; 								&lt;li class=&quot;&quot;&gt; 									&lt;div class=&quot;ng-isolate-scope&quot;&gt; 										&lt;a href=&quot;chaxun.html&quot; class=&quot;ng-scope&quot;&gt; 											&lt;div class=&quot;nav-icon&quot;&gt;&lt;/div&gt; 											&lt;div class=&quot;nav-title&quot;&gt;查询&lt;/div&gt; 										&lt;/a&gt; 									&lt;/div&gt; 							&lt;/div&gt; 							&lt;/li&gt; 							&lt;/ul&gt; 							&lt;/li&gt;  						&lt;/div&gt; 					&lt;/div&gt; 				&lt;/div&gt; 				 &lt;div class=&quot;table_mod&quot; style=&quot;margin: 50px 50px 50px 250px&quot;&gt;   &lt;form action=&quot;&quot; method=&quot;post&quot; id=&quot;addForm&quot;&gt;                     &lt;div class=&quot;add_mod&quot;&gt;                         &lt;h1&gt;新订录入&lt;span&gt;&lt;/span&gt;&lt;/h1&gt; &lt;div style=&quot;padding:10px 300px 50px 180px&quot;&gt; 	 	&lt;table class=&quot;table&quot;&gt; 		&lt;colgroup&gt; 			&lt;col class=&quot;w_30&quot;&gt; 		&lt;/colgroup&gt; 		&lt;thead&gt; 			&lt;tr class=&quot;thDiv&quot;&gt; 			&lt;tr&gt; 				&lt;td&gt;&lt;div align=&quot;center&quot;&gt; 						&lt;span class=&quot;STYLE1&quot;&gt;客户编号&lt;/span&gt; 					&lt;/div&gt;&lt;/td&gt; 				&lt;td&gt;&lt;div align=&quot;center&quot;&gt; 						&lt;span class=&quot;STYLE1&quot;&gt;&lt;font color=&quot;red&quot;&gt;*&lt;/font&gt;&lt;input 							type=&quot;text&quot; value=&quot;001&quot;&gt;&lt;/span&gt;  					&lt;/div&gt;&lt;/td&gt; 			&lt;/tr&gt; 			 			&lt;tr&gt; 				&lt;td&gt;&lt;div align=&quot;center&quot;&gt; 						&lt;span class=&quot;STYLE1&quot;&gt;客户姓名&lt;/span&gt; 					&lt;/div&gt;&lt;/td&gt; 				&lt;td&gt;&lt;div align=&quot;center&quot;&gt; 						&lt;span class=&quot;STYLE1&quot;&gt;&lt;font color=&quot;red&quot;&gt;*&lt;/font&gt;&lt;input 							type=&quot;text&quot; value=&quot;张三&quot;&gt;&lt;/span&gt;  					&lt;/div&gt;&lt;/td&gt; 			&lt;/tr&gt;  			&lt;tr&gt; 				&lt;td&gt;&lt;div align=&quot;center&quot;&gt; 						&lt;span class=&quot;STYLE1&quot;&gt;联系电话&lt;/span&gt; 					&lt;/div&gt;&lt;/td&gt; 				&lt;td&gt;&lt;div align=&quot;center&quot;&gt; 						&lt;span class=&quot;STYLE1&quot;&gt;&lt;input type=&quot;text&quot; 							value=&quot;131313131313&quot;&gt;&lt;/span&gt; 					&lt;/div&gt;&lt;/td&gt; 			&lt;/tr&gt;  			&lt;tr&gt; 				&lt;td&gt;&lt;div align=&quot;center&quot;&gt; 						&lt;span class=&quot;STYLE1&quot;&gt;邮编&lt;/span&gt; 					&lt;/div&gt;&lt;/td&gt; 				&lt;td&gt;&lt;div align=&quot;center&quot;&gt; 						&lt;span class=&quot;STYLE1&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;152500&quot;&gt;&lt;/span&gt; 					&lt;/div&gt;&lt;/td&gt; 			&lt;/tr&gt; 			&lt;tr&gt; 				&lt;td&gt;&lt;div align=&quot;center&quot;&gt; 						&lt;span class=&quot;STYLE1&quot;&gt;订单类型&lt;/span&gt; 					&lt;/div&gt;&lt;/td&gt; 				&lt;td&gt;&lt;div align=&quot;center&quot;&gt; 						&lt;span class=&quot;STYLE1&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;退订&quot; disabled&gt;&lt;/span&gt; 					&lt;/div&gt;&lt;/td&gt; 			&lt;/tr&gt;   			&lt;tr&gt; 				&lt;td&gt;&lt;div align=&quot;center&quot;&gt; 						&lt;span class=&quot;STYLE1&quot;&gt;退订日期&lt;/span&gt; 					&lt;/div&gt;&lt;/td&gt; 				&lt;td&gt;&lt;div align=&quot;center&quot;&gt; 						&lt;span class=&quot;STYLE1&quot;&gt;&lt;font color=&quot;red&quot;&gt;*&lt;/font&gt;&lt;input onClick=&quot;laydate()&quot;&gt; &lt;/span&gt; 					&lt;/div&gt;&lt;/td&gt; 			&lt;/tr&gt;  			 			 			 &lt;/table&gt;  			 			&lt;div style=&quot;margin-left:300px&quot;&gt;&lt;a href=&quot;tuidingdan.html&quot;&gt;&lt;type=button id=&quot;add&quot; class=&quot;btn_confirm&quot;&gt;提交&lt;/button&gt;&lt;/a&gt; 			&lt;a href=&quot;tuidingluru.html&quot; class=&quot;btn_back&quot; type=&quot;button&quot;&gt;重置&lt;/a&gt; 			&lt;/div&gt; 		 		    		&lt;script&gt;      var _hmt = _hmt || [];     (function() {         var hm = document.createElement(&quot;script&quot;);         hm.src = &quot;https://hm.baidu.com/hm.js?2e6bb6be349df7ff276320151eb13594&quot;;         var s = document.getElementsByTagName(&quot;script&quot;)[0];         s.parentNode.insertBefore(hm, s);     })();      //收藏本站     function AddFavorite() {         var url = window.location;         var title = document.title;         var ua = navigator.userAgent.toLowerCase();         if (ua.indexOf(&quot;360se&quot;) &gt; -1) {             alert(&quot;由于360浏览器功能限制，请按 Ctrl+D 手动收藏！&quot;);         }         else if (ua.indexOf(&quot;msie 8&quot;) &gt; -1) {             window.external.AddToFavoritesBar(url, title); //IE8         }         else if (document.all) {             try {                 window.external.addFavorite(url, title);             } catch (e) {                 alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');             }         }         else if (window.sidebar) {             window.sidebar.addPanel(title, url, &quot;&quot;);         }         else {             alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');         }     } &lt;/script&gt; 		&lt;script type=&quot;text/javascript&quot; src=&quot;pageResource/require.js.下载&quot;&gt;&lt;/script&gt; 		&lt;script type=&quot;text/javascript&quot; src=&quot;pageResource/config.js.下载&quot;&gt;&lt;/script&gt; 		&lt;script type=&quot;text/javascript&quot;&gt;     /*&lt;![CDATA[*/     require(['main/affiliated']);     /*]]&gt;*/ 	 &lt;/script&gt;  		&lt;style&gt; .btn-default { 	display: inline-block; 	margin-bottom: 10; 	font-weight: 20; 	text-align: center; 	vertical-align: middle; 	touch-action: manipulation; 	cursor: pointer; 	border: 1px solid transparent; 	white-space: nowrap; 	padding: 3px 8px; 	font-size: 12px; 	line-height: 1.42857143; 	border-radius: 2px; 	-webkit-user-select: none; 	-ms-user-select: none; 	user-select: none; }  .btn-blue { 	color: #fff; 	background: #238bfa; 	color: white; 	border-color: #0a7ef9; }  .btn-blue:hover { 	color: #fff; 	background: #0571e5; 	border-color: #0460c2; }  .btn-gray { 	border-color: #adadad; }  .btn-gray:hover { 	background: #ffffff; 	color: #ffffff; }  @font-face { 	font-family: &quot;iconfont&quot;; 	src: url('iconfont.eot'); /* IE9*/ 	src: url('iconfont.eot#iefix') format('embedded-opentype'), 		/* IE6-IE8 */         url('iconfont.woff') format('woff'), /* chrome, firefox */         url('iconfont.ttf') format('truetype'), 		/* chrome, firefox, opera, Safari, Android, iOS 4.2+*/         url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */ }  .iconfont { 	font-family: &quot;iconfont&quot; !important; 	font-size: 16px; 	font-style: normal; 	-webkit-font-smoothing: antialiased; 	-webkit-text-stroke-width: 0.2px; 	-moz-osx-font-smoothing: grayscale; } &lt;/style&gt;    		&lt;div id=&quot;ui-datepicker-div&quot; 			class=&quot;ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all&quot;&gt;&lt;/div&gt; 		&lt;ins id=&quot;newBridge&quot;&gt;&lt;/ins&gt;</find>
+      <find>col-</find>
+      <find>jsp</find>
+      <find>act</find>
+      <find>col</find>
+      <find>pageResource/</find>
+      <find>查询</find>
+      <find>增加</find>
+      <find>&lt;mian</find>
+      <find>&lt;div class=&quot;sidebar-nav main-nav&quot;</find>
+      <find>&lt;div class=&quot;sidebar-nav main-nav</find>
+      <find>日期</find>
+      <find>客户资金</find>
+      <find>col-1</find>
+      <find>修改</find>
+      <find>pageResource</find>
+      <find>../pageResource</find>
+      <find>active</find>
+      <find>投递员</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>html</replace>
+      <replace>../../pageResource/</replace>
+      <replace>投递员</replace>
+      <replace>投递员结算</replace>
+      <replace>../pageResource</replace>
+      <replace>../../pageResource</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/html/delivery_center/TransportSystem2_2_1_1.html" />
+        <option value="$PROJECT_DIR$/html/delivery_center/TransportSystem2_3.html" />
+        <option value="$PROJECT_DIR$/html/delivery_center/TransportSystem2_3_1.html" />
+        <option value="$PROJECT_DIR$/html/delivery_center/TransportSystem3_1.html" />
+        <option value="$PROJECT_DIR$/html/delivery_center/TransportSystem3_2.html" />
+        <option value="$PROJECT_DIR$/html/delivery_center/temp.html" />
+        <option value="$PROJECT_DIR$/html/cutomer_service/PI.html" />
+        <option value="$PROJECT_DIR$/html/delivery_center/TransportSystem2_1.html" />
+        <option value="$PROJECT_DIR$/Olive_Admin/404.html" />
+        <option value="$PROJECT_DIR$/html/delivery_center_2/temp.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/central_warehouse_management.html" />
+        <option value="$PROJECT_DIR$/html/sss.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_detail0.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_detail1.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_detail1_0.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_detail1_1.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_detail2.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_detail3.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_print.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_print1.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_print2.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_print2_0.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_return.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_return0.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_return0_detail.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/substation_warehouse_management.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/substation_warehouse_management0.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/substation_warehouse_management1.html" />
+        <option value="$PROJECT_DIR$/html/center_warehouse/substation_warehouse_management2.html" />
+        <option value="$PROJECT_DIR$/html/control_center/central_warehouse_management.html" />
+        <option value="$PROJECT_DIR$/html/control_center/chaxun.html" />
+        <option value="$PROJECT_DIR$/html/control_center/chenggong.html" />
+        <option value="$PROJECT_DIR$/html/control_center/dangqianorder.html" />
+        <option value="$PROJECT_DIR$/html/control_center/dbchaxun.html" />
+        <option value="$PROJECT_DIR$/html/control_center/diaoduorder.html" />
+        <option value="$PROJECT_DIR$/html/control_center/guaqi.html" />
+        <option value="$PROJECT_DIR$/html/control_center/renwuorder.html" />
+        <option value="$PROJECT_DIR$/html/control_center/shangpin.html" />
+        <option value="$PROJECT_DIR$/html/control_center/shouhuoren.html" />
+        <option value="$PROJECT_DIR$/html/control_center/xiangxiorder.html" />
+        <option value="$PROJECT_DIR$/html/cutomer_service/chakan.html" />
+        <option value="$PROJECT_DIR$/html/cutomer_service/huanhuodan.html" />
+        <option value="$PROJECT_DIR$/html/finace/invoice.html" />
+        <option value="$PROJECT_DIR$/html/delivery_center/TransportSystem3_4.html" />
+        <option value="$PROJECT_DIR$/html/delivery_center/TransportSystem3_3.html" />
+        <option value="$PROJECT_DIR$/html/delivery_center/TransportSystem3_4_1.html" />
+        <option value="$PROJECT_DIR$/html/finace/worker.html" />
+        <option value="$PROJECT_DIR$/html/finace/invoice_register.html" />
+        <option value="$PROJECT_DIR$/html/finace/invoice_qurey.html" />
+        <option value="$PROJECT_DIR$/html/finace/provider_count.html" />
+        <option value="$PROJECT_DIR$/html/finace/localStorage.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1924" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logisticsManageS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logisticsManageS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logisticsManageS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logisticsManageS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logisticsManageS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logisticsManageS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SearchEverywhereHistoryKey" value="titl&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hasee\WebstormProjects\logisticsManageS\html\delivery_center" />
+      <recent name="C:\Users\hasee\WebstormProjects\logisticsManageS\html\delivery_center_2" />
+      <recent name="C:\Users\hasee\WebstormProjects\logisticsManageS\html" />
+      <recent name="C:\Users\hasee\WebstormProjects\logisticsManageS\html\center_warehouse" />
+      <recent name="C:\Users\hasee\WebstormProjects\logisticsManageS\html\cutomer_service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hasee\WebstormProjects\logisticsManageS\html\ss" />
+      <recent name="C:\Users\hasee\WebstormProjects\logisticsManageS\html\delivery_center" />
+      <recent name="C:\Users\hasee\WebstormProjects\logisticsManageS\html\delivery_center_2" />
+      <recent name="C:\Users\hasee\WebstormProjects\logisticsManageS\html\cutomer_service" />
+      <recent name="C:\Users\hasee\WebstormProjects\logisticsManageS\html\sssssssss" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.xindingluru.html">
+    <configuration default="false" name="xindingluru.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/logisticsManageS/html/cutomer_service/xindingluru.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.xindingluru.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.xindingluru.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="299324bc-d34b-4921-a0c7-51f60c43c6e9" name="Default" comment="" />
+      <created>1499063051262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1499063051262</updated>
+      <workItem from="1499063053206" duration="63000" />
+      <workItem from="1499063148672" duration="1871000" />
+      <workItem from="1499138662859" duration="14943000" />
+      <workItem from="1499216743255" duration="11746000" />
+      <workItem from="1499303957174" duration="6846000" />
+      <workItem from="1499313441417" duration="10755000" />
+      <workItem from="1499330649810" duration="1036000" />
+      <workItem from="1499337482680" duration="5709000" />
+      <workItem from="1499344797291" duration="11319000" />
+      <workItem from="1499390841388" duration="9953000" />
+      <workItem from="1499417972059" duration="649000" />
+      <workItem from="1499597453244" duration="33000" />
+      <workItem from="1499597649712" duration="5069000" />
+      <workItem from="1499656710080" duration="15928000" />
+      <workItem from="1499695983057" duration="1040000" />
+      <workItem from="1499735449763" duration="27538000" />
+      <workItem from="1499775314940" duration="5532000" />
+      <workItem from="1499783961634" duration="1774000" />
+      <workItem from="1499822446230" duration="11205000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="143009000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1924" height="1047" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25159237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21518987" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/html/control_center/dbchaxun.html</url>
+          <line>283</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_detail1_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_detail2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_detail3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_print.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_print1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_print2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_print2_0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_return.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_return0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_return0_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/center_warehouse/substation_warehouse_management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/center_warehouse/substation_warehouse_management0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/center_warehouse/substation_warehouse_management1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/center_warehouse/substation_warehouse_management2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/center_warehouse/central_warehouse_management_detail1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="96" column="69" lean-forward="true" selection-start-line="96" selection-start-column="69" selection-end-line="96" selection-end-column="69" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/control_center/central_warehouse_management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="138" column="26" lean-forward="false" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/control_center/chaxun.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/control_center/chenggong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/control_center/dangqianorder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/control_center/dbchaxun.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/control_center/diaoduorder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/control_center/guaqi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/control_center/shangpin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/control_center/shouhuoren.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/control_center/xiangxiorder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cutomer_service/chakan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="116" column="18" lean-forward="true" selection-start-line="116" selection-start-column="18" selection-end-line="177" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#7685#7691#0" expanded="false" />
+            <element signature="e#8152#8158#0" expanded="false" />
+            <element signature="e#8587#8593#0" expanded="false" />
+            <element signature="e#9024#9030#0" expanded="false" />
+            <element signature="e#9454#9460#0" expanded="false" />
+            <element signature="e#9923#9929#0" expanded="false" />
+            <element signature="e#10383#10389#0" expanded="false" />
+            <element signature="e#10853#10859#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/control_center/renwuorder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="177" column="22" lean-forward="true" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cutomer_service/Huanhuodingdan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cutomer_service/huanhuodan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="221" column="17" lean-forward="false" selection-start-line="221" selection-start-column="17" selection-end-line="221" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/delivery_center_2/TransportSystem1_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/delivery_center_2/TransportSystem2_2_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2213">
+          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/delivery_center/TransportSystem2_2_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/delivery_center/TransportSystem2_3_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="48" column="28" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/delivery_center/TransportSystem3_4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="188" column="71" lean-forward="true" selection-start-line="188" selection-start-column="7" selection-end-line="188" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/delivery_center/TransportSystem3_4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="153" column="8" lean-forward="false" selection-start-line="153" selection-start-column="8" selection-end-line="447" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/delivery_center/TransportSystem3_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="449" column="74" lean-forward="false" selection-start-line="449" selection-start-column="74" selection-end-line="449" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/delivery_center/TransportSystem2_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/finace/invoice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="320" column="39" lean-forward="false" selection-start-line="320" selection-start-column="39" selection-end-line="320" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/finace/invoice_qurey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="487" column="11" lean-forward="false" selection-start-line="487" selection-start-column="8" selection-end-line="487" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/finace/invoice_in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="476" column="52" lean-forward="false" selection-start-line="476" selection-start-column="51" selection-end-line="476" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/delivery_center/TransportSystem2_2_1(1).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/delivery_center/TransportSystem2_2_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/delivery_center/TransportSystem2_3_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/delivery_center/TransportSystem3_4_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="129" column="54" lean-forward="false" selection-start-line="129" selection-start-column="54" selection-end-line="129" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/delivery_center/TransportSystem3_4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="97" lean-forward="true" selection-start-line="6" selection-start-column="97" selection-end-line="6" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/finace/invoice_register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="200" column="68" lean-forward="false" selection-start-line="200" selection-start-column="68" selection-end-line="200" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cutomer_service/xindingluru.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/finace/worker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="490" column="44" lean-forward="false" selection-start-line="490" selection-start-column="44" selection-end-line="492" selection-end-column="49" />
+          <folding>
+            <element signature="e#28466#28472#0" expanded="true" />
+            <element signature="e#28472#28478#0" expanded="true" />
+            <element signature="e#28583#28589#0" expanded="true" />
+            <element signature="e#28589#28595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/finace/provider_count.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="689" column="37" lean-forward="true" selection-start-line="689" selection-start-column="37" selection-end-line="689" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/finace/localStorage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="166" column="14" lean-forward="false" selection-start-line="166" selection-start-column="14" selection-end-line="166" selection-end-column="14" />
+          <folding>
+            <element signature="e#17606#17612#0" expanded="true" />
+            <element signature="n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#29865#29871#0" expanded="true" />
+            <element signature="e#29871#29877#0" expanded="true" />
+            <element signature="e#29978#29984#0" expanded="true" />
+            <element signature="e#29984#29990#0" expanded="true" />
+            <element signature="n#div#2;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#42231#42237#0" expanded="true" />
+            <element signature="e#42237#42243#0" expanded="true" />
+            <element signature="e#42348#42354#0" expanded="true" />
+            <element signature="e#42354#42360#0" expanded="true" />
+            <element signature="n#div#3;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#54605#54611#0" expanded="true" />
+            <element signature="e#54611#54617#0" expanded="true" />
+            <element signature="e#54722#54728#0" expanded="true" />
+            <element signature="e#54728#54734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/mianPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="94" lean-forward="true" selection-start-line="6" selection-start-column="94" selection-end-line="6" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
