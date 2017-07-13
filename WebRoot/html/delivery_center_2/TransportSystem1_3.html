@@ -1,0 +1,698 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0047)https://www.yunchehome.com/affiliated/headerAdd -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="pageResource/jquery-ui.structure.min.css">
+    <link rel="stylesheet" type="text/css" href="pageResource/jquery-ui.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="pageResource/jquery-ui-timepicker.css">
+    <link rel="stylesheet" type="text/css" href="pageResource/combo.select.css">
+    <link rel="stylesheet" type="text/css" href="pageResource/aero.css">
+    <link rel="stylesheet" type="text/css" href="pageResource/validform.css">
+    <link rel="stylesheet" type="text/css" href="pageResource/gips.css">
+    <link rel="stylesheet" type="text/css" href="pageResource/skin.css">
+    <link rel="stylesheet" type="text/css" href="pageResource/style.css">
+    <link rel="stylesheet" type="text/css" href="pageResource/console.css">
+    <link rel="stylesheet" type="text/css" href="pageResource/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="pageResource/commonstyle.css">
+    <link rel="stylesheet" type="text/css" href="pageResource/font-awesome.min.css">
+	<link rel="stylesheet" href="./bootstrap3.3.5/css/bootstrap.min.css">
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./jquery1.11.3/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./bootstrap3.3.5/js/bootstrap.min.js"></script>
+    <script charset="utf-8" src="pageResource/b.js.下载"></script><script charset="utf-8" src="pageResource/v.js.下载"></script><script src="pageResource/hm.js.下载"></script><script type="text/javascript">
+        /*<![CDATA[*/
+        window.csrf={"name":"g_tk","value":"ef14ba450f3bedb88a0a50182baf4aceedfade91"};
+        /*]]>*/
+    </script>
+    <title>物流管理系统</title>
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content=">
+
+
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="main/affiliated" src="pageResource/affiliated.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="pageResource/jquery.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="widgets/FileUpload" src="pageResource/FileUpload.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="widgets/jquery.combo.select" src="pageResource/jquery.combo.select.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-org" src="pageResource/jquery.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="text" src="pageResource/text.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="GB2260" src="pageResource/GB2260.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Handlebars" src="pageResource/handlebars-v4.0.5.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-form" src="pageResource/jquery.form.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="art-dialog" src="pageResource/jquery.artDialog.source.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="gips" src="pageResource/gips.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui" src="pageResource/jquery-ui.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="plupload" src="pageResource/plupload.full.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="IDValidator" src="pageResource/IDValidator.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="validForm" src="pageResource/Validform_v5.3.2.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="timepicker" src="pageResource/jquery-ui-timepicker-addon.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="QiniuSDK" src="pageResource/qiniu.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="datepicker-config" src="pageResource/datepicker-config.js.下载"></script><script src="pageResource/pc_nb.js.下载" charset="UTF-8"></script>
+
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.STYLE1 {font-size: 12px}
+.STYLE3 {font-size: 12px; font-weight: bold; }
+.STYLE4 {
+	color: #03515d;
+	font-size: 12px;
+}
+-->
+</style>
+
+<script>
+var  highlightcolor='#c1ebff';
+//此处clickcolor只能用win系统颜色代码才能成功,如果用#xxxxxx的代码就不行,还没搞清楚为什么:(
+var  clickcolor='#51b2f6';
+function  changeto(){
+source=event.srcElement;
+if  (source.tagName=="TR"||source.tagName=="TABLE")
+return;
+while(source.tagName!="TD")
+source=source.parentElement;
+source=source.parentElement;
+cs  =  source.children;
+//alert(cs.length);
+if  (cs[1].style.backgroundColor!=highlightcolor&&source.id!="nc"&&cs[1].style.backgroundColor!=clickcolor)
+for(i=0;i<cs.length;i++){
+	cs[i].style.backgroundColor=highlightcolor;
+}
+}
+
+function  changeback(){
+if  (event.fromElement.contains(event.toElement)||source.contains(event.toElement)||source.id=="nc")
+return
+if  (event.toElement!=source&&cs[1].style.backgroundColor!=clickcolor)
+//source.style.backgroundColor=originalcolor
+for(i=0;i<cs.length;i++){
+	cs[i].style.backgroundColor="";
+}
+}
+
+function  clickto(){
+source=event.srcElement;
+if  (source.tagName=="TR"||source.tagName=="TABLE")
+return;
+while(source.tagName!="TD")
+source=source.parentElement;
+source=source.parentElement;
+cs  =  source.children;
+//alert(cs.length);
+if  (cs[1].style.backgroundColor!=clickcolor&&source.id!="nc")
+for(i=0;i<cs.length;i++){
+	cs[i].style.backgroundColor=clickcolor;
+}
+else
+for(i=0;i<cs.length;i++){
+	cs[i].style.backgroundColor="";
+}
+}
+</script>
+</head>
+
+<div view-framework="">
+    <div class="viewFramework-topbar ng-scope">
+        <div class="aliyun-console-topbar ng-scope ng-isolate-scope">
+            <div class="topbar-wrap topbar-clearfix">
+                <div class="topbar-head topbar-left">
+                    <a href="" target="_blank" class="topbar-logo topbar-left"><img src="pageResource/logo3.png"></a>
+                </div>
+                <div class="topbar-info topbar-right topbar-clearfix">
+                    <div class="topbar-qrcode topbar-left ng-scope">
+                        <a class="topbar-btn">
+                            <span class="icon-qrcode"></span>
+                            <span class="ng-scope ng-binding">咨询热线：021-59886610</span>
+                        </a>
+                    </div>
+                    <div class="topbar-qrcode topbar-left ng-scope">
+                        <a class="topbar-btn" href="">
+                            <span class="icon-ecs"></span>
+                        <span class="ng-scope ng-binding" id="logo">管理控制台</span>
+                        </a>
+                    </div>
+                    <div class="topbar-qrcode topbar-left ng-scope">
+                        <a class="topbar-btn" href="javascript:onclik=AddFavorite()">
+                            <span class="icon-nas"></span>
+                            <span class="ng-scope ng-binding">收藏本站</span>
+                        </a>
+                    </div>
+                    <div class="topbar-qrcode topbar-left ng-scope">
+                        <a class="topbar-btn" href="">
+                            <span class="icon-desk" style="width: 22px;height: 15px;position: absolute;top: 18px;"></span>
+                            <span class="ng-scope ng-binding" style="margin-left: 50px;" id="guide">新手指引</span>
+                        </a>
+                    </div>
+                    <!--                    <div class="topbar-qrcode topbar-left ng-scope">-->
+                    <!--                        <a class="topbar-btn" href="/index/shorturl">-->
+                    <!--                            <span class="icon-desk"-->
+                    <!--                                  style="width: 22px;height: 15px;position: absolute;top: 18px;"></span>-->
+                    <!--                            <span class="ng-scope ng-binding" style="margin-left: 50px;">创建快捷方式</span>-->
+                    <!--                        </a>-->
+                    <!--                    </div>-->
+                    <div class="topbar-qrcode topbar-left ng-scope">
+                        <a class="topbar-btn" href="" target="_blank">
+                            <span class="icon-qrcode"></span>
+                            <span class="ng-scope ng-binding">微信公众号</span>
+                        </a>
+                        <div class="topbar-qrcode-panel">
+                            <div class="topbar-qrcode-image"><img src="pageResource/rec.jpg"></div>
+                            <div class="topbar-qrcode-title ng-binding" ng-bind-html="navLinks.qrcode.title">
+                                扫码关注微信公众账号
+                            </div>
+                        </div>
+                    </div>
+                    <!--                    <div class="topbar-qrcode topbar-left ng-scope">-->
+                    <!--                        <a class="topbar-btn" href="javascript:;" target="_blank">-->
+                    <!--                            <span class="icon-qrcode"></span>-->
+                    <!--                            <span class="ng-scope ng-binding">联系客服</span>-->
+                    <!--                        </a>-->
+                    <!--                        <div class="topbar-qrcode-panel">-->
+                    <!--                            <div class="topbar-qrcode-title ng-binding" ng-bind-html="navLinks.qrcode.title">全国热线电话<br>021-59886610</div>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                    <div class="dropdown topbar-notice topbar-btn topbar-left ng-scope">
+                        <a href="" class="dropdown-toggle topbar-btn-notice">
+                            <span class="topbar-btn-notice-icon icon-bell"></span>
+                            <span class="topbar-btn-notice-num ng-binding topbar-btn-notice-num-zero">0</span>
+                        </a>
+                    </div>
+                    <div class="topbar-left topbar-user ng-scope">
+                        <div class="dropdown topbar-info-item">
+                            <a href="" class="dropdown-toggle topbar-btn"><span class="ng-binding">张伟</span><span class="icon-arrow-down"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="topbar-info-btn ng-scope">
+                                    <a href="" target="_self" onclick="javascript:location.replace(&#39;/manager/logout&#39;);event.returnValue=false;">
+                                        <span class="ng-binding">退出</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>s
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="viewFramework-body viewFramework-sidebar-full">
+        <div class="viewFramework-sidebar ng-scope">
+            <div class="sidebar-content ng-scope">
+                <div class="sidebar-inner ng-scope">
+                    <div class="sidebar-fold ng-scope icon-unfold"></div>
+                    <div class="sidebar-nav main-nav">
+                        <div class="sidebar-title">
+                            <div class="sidebar-title-inner ng-scope">
+                                <span class="sidebar-title-icon icon-arrow-down"></span>
+                                <span class="sidebar-title-text ng-binding">产品与服务</span>
+
+                            </div>
+                        </div>
+                        <ul class="sidebar-trans" style="height: 500px;">
+                            <li class="nav-item ng-scope active">
+                                <a href="" class="sidebar-trans ng-scope" title="车辆管理 ">
+                                    <div class="nav-icon sidebar-trans"><span class="icon-redisa"></span></div>
+                                    <span class="nav-title ng-binding">配送中心&nbsp;</span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+	<div class="col-md-3">
+        <div class="viewFramework-product viewFramework-product-col-1">
+
+            <div class="viewFramework-product-navbar ng-scope">
+                <div class="product-nav-stage ng-scope product-nav-stage-main">
+
+                    <div class="product-nav-scene product-nav-main-scene">
+                        <div class="product-nav-title ng-scope">操作菜单</div>
+                        <div class="ng-isolate-scope"></div>
+                        <div class="product-nav-list">
+                            <ul>
+                                <li class="nav-showchild">
+                                    <div class="ng-isolate-scope">
+                                        <a href="" class="ng-scope">
+                                            <div class="nav-icon">
+                                                <img src="pageResource/downrorrw.png">
+                                            </div>
+                                            <div class="nav-title">业务开发</div>
+                                        </a>
+                                    </div>
+                                    <ul class="ng-scope">
+                                        <li class="active">
+                                            <div class="ng-isolate-scope">
+                                                <a href="logisticSystem1_1.html" class="ng-scope">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">商品一级分类管理</div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="ng-isolate-scope">
+                                                <a href="TransportSystem1_2.html" class="ng-scope">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">商品二级分类管理</div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="ng-isolate-scope">
+                                                <a href="TransportSystem1_3.html" class="ng-scope">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">新商品登记</div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-showchild">
+                                    <div class="ng-isolate-scope">
+                                        <a href="" class="ng-scope">
+                                            <div class="nav-icon">
+                                                <span class="icon-arrow-down"></span>
+                                            </div>
+                                            <div class="nav-title">进货管理</div>
+                                        </a>
+                                    </div>
+                                    <ul class="ng-scope">
+                                        <li class="">
+                                            <div class="ng-isolate-scope">
+                                                <a href="" class="TransportSystem2_1.html">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">供应商设置</div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="ng-isolate-scope">
+                                                <a href="" class="TransportSystem2_2.html">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">进货安排</div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="ng-isolate-scope">
+                                                <a href="TransportSystem2_3.html" class="ng-scope">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">退货安排</div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <li class="nav-showchild">
+                                    <div class="ng-isolate-scope">
+                                        <a href="" class="ng-scope">
+                                            <div class="nav-icon">
+                                                <span class="icon-arrow-down"></span>
+                                            </div>
+                                            <div class="nav-title">库房管理</div>
+                                        </a>
+                                    </div>
+                                    <ul class="ng-scope">
+                                        <li class="">
+                                            <div class="ng-isolate-scope">
+                                                <a href="TransportSystem3_1.html" class="ng-scope">
+                                                <div class="nav-icon"></div>
+                                                <div class="nav-title">库房代码设置</div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="ng-isolate-scope">
+                                                <a href="TransportSystem3_2.html" class="ng-scope">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">库房存储设置</div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="ng-isolate-scope">
+                                                <a href="TransportSystem3_3.html" class="ng-scope">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">库存量查询</div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="ng-isolate-scope">
+                                                <a href="TransportSystem3_4.html" class="ng-scope">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">出入库查询</div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-showchild">
+                                    <div class="ng-isolate-scope">
+                                        <a href="" class="ng-scope">
+                                            <div class="nav-icon">
+                                                <span class="icon-arrow-down"></span>
+                                            </div>
+                                            <div class="nav-title">业务管理</div>
+                                        </a>
+                                    </div>
+                                    <ul class="ng-scope">
+                                        <li class="">
+                                            <div class="ng-isolate-scope">
+                                                <a href="TransportSystem4_1.html" class="ng-scope">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">订购排行榜分析</div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                     <ul class="ng-scope">
+                                        <li class="">
+                                            <div class="ng-isolate-scope">
+                                                <a href="TransportSystem4_2.html" class="ng-scope">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">分站配送情况分析</div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+				</div>
+			</div>
+                </div><!-- /product nav -->
+            </div>
+            
+            
+            
+             <div class="viewFramework-product-navbar-collapse ng-scope">
+                <div class="product-navbar-collapse-inner">
+                    <div class="product-navbar-collapse-bg"></div>
+                    <div class="product-navbar-collapse">
+                        <span class="icon-collapse-left"></span>
+                        <span class="icon-collapse-right"></span>
+                    </div>
+                </div>
+            </div> 
+            
+            
+<div class="col-md-9">
+	<div class="col-md-10">
+		<div class="row placeholders">
+			<div style="padding-left:50px">
+			<h1><b>新商品登记</b></h1>
+			
+			
+			
+            <form  class="form-inline" role="form" id="searchForm"  method="post" 
+          action="${pageContext.request.contextPath}/admin/goods/getAdminGoods">			
+				
+				<div class="form-group">
+					<label for="goodsName"> 类别搜索</label> 
+					<input class="form-control input-sm" name="goodsName" id="goodsName"  type="text" placeholder="分类搜索" />
+				</div>
+				<button class="btn btn-primary btn-sm" type="submit" >搜索</button>
+			
+</form>
+		  <h2 class="sub-header">新商品登记</h2>
+			<div class="panel panel-warning">
+			<div class="panel-heading text-center">新商品登记
+			</div>
+			
+		
+			
+			
+			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+    <td>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="8" background="images/tab_12.gif">&nbsp;</td>
+        <td><form action="成功.html" method="post">
+        <table width="60%" border="0" cellpadding="0" cellspacing="1" bgcolor="b5d6e6" onmouseover="changeto()"  onmouseout="changeback()">
+          <tr>
+            <td width="50%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1">商品代码</span></div></td>
+            <td width="75%" height="22" bgcolor="#FFFFFF"><div align="left"><span class="STYLE1">
+              <label>
+                <input type="text" name="textfield3" id="textfield2" />
+                </label>
+            </span></div></td>
+            </tr>
+          <tr>
+            <td width="50%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1">商品名称</span></div>
+            </td>
+            <td height="22" bgcolor="#FFFFFF"><div align="left"><span class="STYLE1">
+              <label>
+                <input type="text" name="textfield2" id="textfield" />
+                </label>
+            </span></div></td>
+            </tr>
+          <tr>
+            <td width="50%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1">商品一级分类</span></div>
+            </td>
+            <td height="22" bgcolor="#FFFFFF"><div align="left"><span class="STYLE1">
+              <label>
+                <select name="select" id="select">
+                  <option value="book">图书</option>
+                  <option value="clothes">服装</option>
+                  </select>
+                </label>
+            </span></div></td>
+            </tr>
+          <tr>
+            <td width="50%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1">商品二级分类</span></div>
+            </td>
+            <td height="22" bgcolor="#FFFFFF"><div align="left"><span class="STYLE1">
+              <label>
+                <select name="select2" id="select2">
+                  <option value="computer">计算机类</option>
+                  <option value="literature">文学类</option>
+                  <option value="medicine ">医学类</option>
+                  </select>
+                </label>
+            </span></div></td>
+            </tr>
+          <tr>
+            <td width="50%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1">计量单位</span></div>
+           </td>
+            <td height="22" bgcolor="#FFFFFF"><div align="left"><span class="STYLE1">
+              <label>
+                <input type="text" name="textfield4" id="textfield3" />
+                </label>
+            </span></div></td>
+            </tr>
+          <tr>
+            <td width="50%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1">原价</span></div>
+            </td>
+            <td height="22" bgcolor="#FFFFFF"><div align="left"><span class="STYLE1">
+              <label>
+                <input type="text" name="textfield5" id="textfield4" />
+                </label>
+            </span></div></td>
+            </tr>
+          <tr>
+            <td width="50%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1">商品折扣</span></div>            </td>
+            <td height="22" bgcolor="#FFFFFF"><div align="left"><span class="STYLE1">
+              <label>
+                <input type="text" name="textfield6" id="textfield5" />
+                </label>
+            </span></div></td>
+            </tr>
+          <tr>
+            <td width="50%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1">成本价</span></div>
+            </td>
+            <td height="22" bgcolor="#FFFFFF"><div align="left"><span class="STYLE1">
+              <label>
+                <input type="text" name="textfield7" id="textfield6" />
+                </label>
+            </span></div></td>
+            </tr>
+          <tr>
+            <td width="50%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1">型号</span></div></td>
+            <td height="22" bgcolor="#FFFFFF"><div align="left"><span class="STYLE1">
+              <label>
+                <input type="text" name="textfield8" id="textfield7" />
+                </label>
+            </span></div></td>
+            </tr>
+          <tr>
+            <td width="50%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1">供应商</span></div></td>
+            <td height="22" bgcolor="#FFFFFF"><div align="left"><span class="STYLE1">
+              <label>
+                <input type="text" name="textfield9" id="textfield8" />
+                </label>
+            </span></div></td>
+            </tr>
+          <tr>
+            <td width="50%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1">厂商</span></div></td>
+            <td height="22" bgcolor="#FFFFFF"><div align="left"><span class="STYLE1">
+              <label>
+                <input type="text" name="textfield10" id="textfield9" />
+                </label>
+            </span> </div></td>
+            </tr>
+          <tr>
+            <td width="50%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1">保质期限</span></div></td>
+            <td height="22" bgcolor="#FFFFFF"><div align="left"><span class="STYLE1">
+              <label>
+                <input type="text" name="textfield11" id="textfield10" />
+                </label>
+            </span></div></td>
+            </tr>
+          <tr>
+            <td width="50%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1">可否退货</span></div></td>
+            <td height="22" bgcolor="#FFFFFF"><div align="left"><span class="STYLE1">
+              <label>是
+                <input type="radio" name="radio" id="radio" value="radio" />
+                否
+                </label>
+              <label>
+                <input type="radio" name="radio" id="radio" value="radio2" />
+                </label>
+            </span> </div></td>
+            </tr>
+          <tr>
+            <td width="50%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1">可否换货</span></div></td>
+            <td height="22" bgcolor="#FFFFFF"><div align="left"><span class="STYLE1">是
+              <input type="radio" name="radio1" id="radio1" value="radio" />
+              否</span>
+              <input type="radio" name="radio1" id="radio1" value="radio2" />
+            </div></td>
+            </tr>
+          <tr>
+            <td width="50%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1">备注</span></div></td>
+            <td height="22" bgcolor="#FFFFFF"><div align="left"><span class="STYLE1">
+              <label>
+                <textarea name="textarea" id="textarea" cols="45" rows="5"></textarea>
+                </label>
+            </span></div></td>
+            </tr>
+          <tr>
+            <td width="50%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1"></span></div></td>
+            <td height="22" bgcolor="#FFFFFF"><div align="center"><span class="STYLE1">
+              <label>
+                <input type="submit" name="button" id="button" value="提交" />
+                </label>
+              
+              <input type="reset" name="button2" id="button2" value="重置" /></span>
+            </div></td>
+            </tr>
+        </table></form></td>
+        <td width="8" background="images/tab_15.gif">&nbsp;</td>
+      </tr>
+      
+      
+      
+    </table></td>
+  </tr>
+	</table>
+			</div>
+		</div>
+		<div class="col-md-2"></div>
+	</div><!--ending 2th row-->
+	</div><!--ending container-->
+			</div>
+          </div>
+        </div>
+        
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?2e6bb6be349df7ff276320151eb13594";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+
+    //收藏本站
+    function AddFavorite() {
+        var url = window.location;
+        var title = document.title;
+        var ua = navigator.userAgent.toLowerCase();
+        if (ua.indexOf("360se") > -1) {
+            alert("由于360浏览器功能限制，请按 Ctrl+D 手动收藏！");
+        }
+        else if (ua.indexOf("msie 8") > -1) {
+            window.external.AddToFavoritesBar(url, title); //IE8
+        }
+        else if (document.all) {
+            try {
+                window.external.addFavorite(url, title);
+            } catch (e) {
+                alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+            }
+        }
+        else if (window.sidebar) {
+            window.sidebar.addPanel(title, url, "");
+        }
+        else {
+            alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+        }
+    }
+</script>
+<script type="text/javascript" src="pageResource/require.js.下载"></script>
+<script type="text/javascript" src="pageResource/config.js.下载"></script>
+<script type="text/javascript">
+    /*<![CDATA[*/
+    require(['main/affiliated']);
+    /*]]>*/
+</script>
+
+<style>
+    .btn-default {
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        padding: 3px 8px;
+        font-size: 12px;
+        line-height: 1.42857143;
+        border-radius: 2px;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .btn-blue {
+        color: #fff;
+        background: #238bfa;
+        color : white;
+        border-color: #0a7ef9;
+    }
+    .btn-blue:hover {
+        color: #fff;
+        background: #0571e5;
+        border-color: #0460c2;
+    }
+    .btn-gray {
+        border-color: #adadad;
+    }
+    .btn-gray:hover {
+        background: #adadad;
+        color: #ffffff;
+    }
+
+
+
+    @font-face {font-family: "iconfont";
+        src: url('iconfont.eot'); /* IE9*/
+        src: url('iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('iconfont.woff') format('woff'), /* chrome, firefox */
+        url('iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+        url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+    }
+
+    .iconfont {
+        font-family:"iconfont" !important;
+        font-size:16px;
+        font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+    }
+</style>
+
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div><ins id="newBridge"></ins>
+</body></html>
