@@ -57,7 +57,8 @@
 	</script>
 <script src="../../pageResource/charResource/js/respond.min.js">
 	</script>
-
+<!-- 日历 -->
+<script src="../../pageResource/laydate/laydate.js"></script>
 </head>
 <title>物流管理系统</title>
 
@@ -294,16 +295,20 @@
 								任务分配<span></span>
 							</h1>
 							<div style="margin-top:10px;">
-								&nbsp;查询条件：&nbsp;请选择时间： <select>
-									<option>2017-07-08</option>
-									<option>2017-07-15</option>
-								</select> 任务类型： <select>
-									<option>收款</option>
-									<option>送货收款</option>
-									<option>送货</option>
-									<option>退货</option>
-									<option>换货</option>
-								</select> <input type="submit" value="查询">
+								&nbsp;查询条件：<br>&nbsp;时&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;间1： <input onClick="laydate()"> 
+								&nbsp;时间2： <input onClick="laydate()"> 
+									任务状态：
+									<select style="width:180px;">
+										<option>可分配</option>
+										<option>可调度</option>
+										<option>已调度</option>
+										<option>已分配</option>
+										<option>可领货</option>
+										<option>已领货</option>
+										<option>完成</option>
+										<option>失败</option>
+									</select>
+									<input type="button" onclick="window.location.href='http://localhost:8080/logisticSystem/html/substation/taskAllocationResult.html'" value="查询">
 							</div>
 							<div class="table_mod" style="width:450px;">
 								<div>
@@ -332,7 +337,17 @@
 												<td>鼠标</td>
 												<td>4</td>
 												<td>2017-07-15</td>
-												<td>送货</td>
+												<td>可分配</td>
+											</tr>
+											<tr class="odd">
+												<td><input type="checkbox"></td>
+												<td height="30px">2</td>
+												<td>李四</td>
+												<td>大连东软信息学院</td>
+												<td>键盘</td>
+												<td>20</td>
+												<td>2017-07-15</td>
+												<td>可分配</td>
 											</tr>
 										</tbody>
 									</table>
@@ -340,7 +355,7 @@
 							</div>
 							<div style="margin-top:10px;">
 								&nbsp;&nbsp;共有10条记录，当前第1/10页
-								<table style="margin-left:490px;">
+								<table style="margin-left:665px;margin-top:-20px;">
 									<tbody>
 										<tr>
 											<td>
@@ -361,10 +376,8 @@
 								</table>
 							</div>
 							<div>
-								指定派送员： <select>
-									<option>123</option>
-									<option>456</option>
-								</select> <input type="submit" value="确定">
+								<a style="padding-top:20px;margin-left:350px;"  href="sendTaskToDeliveryMan.html" ><type=button id="add" class="btn_confirm">分配</a>
+								
 							</div>
 						</div>
 					</form>

@@ -62,11 +62,11 @@
 	var jiaArr = [ "请选择", "收款", "送货收款", "送货", "退货", "换货" ];
 	var exampleArr = [
 		[ "请选择" ],
-		[ "可调度", "可分配", "已分配", "已领货", "完成", "失败" ],
-		[ "完成", "失败" ],
-		[ "完成", "失败" ],
-		[ "完成", "失败" ],
-		[ "完成", "失败" ]
+		[ "请选择", "可调度", "可分配", "已分配", "已领货", "完成", "失败" ],
+		[ "请选择", "可调度", "可分配", "已分配", "已领货", "完成", "失败" ],
+		[ "请选择", "未接受", "完成", "失败" ],
+		[ "请选择", "未接受", "完成", "失败" ],
+		[ "请选择", "未接受", "完成", "失败" ]
 	];
 	window.onload = function() {
 
@@ -319,12 +319,12 @@
 								<span>查询任务单</span>
 							</h1>
 							<div style="margin-top: 10px;">
-								<span>&nbsp;查询条件：&nbsp;任务类型： <select id="jia"
+								<span>&nbsp;查询条件：<br>&nbsp;任务类型： <select id="jia"
 									onchange="ChangeExampleSelect(this.selectedIndex)"
 									style="width:160px;">
 
-								</select> &nbsp; 任务状态 <select id="example" style="width:160px;">
-
+								</select> &nbsp; 任务状态 
+								<select id="example" style="width:160px;">
 								</select>&nbsp; 要求完成日期: <input onClick="laydate()"> &nbsp;&nbsp;
 									<input type="submit" value="查询">
 
@@ -341,11 +341,10 @@
 												<th>任务号</th>
 												<th>客户姓名</th>
 												<th>投递地址</th>
-												<th>商品名称</th>
-												<th>商品数量</th>
 												<th>要求完成日期</th>
 												<th>任务类型</th>
 												<th>任务状态</th>
+												<th>操作</th>
 											</tr>
 										</thead>
 										<tbody class="th_list">
@@ -353,11 +352,10 @@
 												<td>1</td>
 												<td>张三</td>
 												<td>大连东软信息学院</td>
-												<td>鼠标</td>
-												<td>4</td>
 												<td>2017-07-15</td>
 												<td>送货</td>
 												<td>完成</td>
+												<td><a href="goodInformations.html" style="color:#000000">商品详情</a></td>
 											</tr>
 										</tbody>
 									</table>
@@ -365,7 +363,7 @@
 							</div>
 							<div style="margin-top:10px;">
 								&nbsp;&nbsp;共有10条记录，当前第1/10页
-								<table style="margin-left:490px;">
+								<table style="margin-left:665px;margin-top:-20px;">
 									<tbody>
 										<tr>
 											<td>
@@ -384,11 +382,6 @@
 										</tr>
 									</tbody>
 								</table>
-								<div style="margin-top:10px;">
-									<span>按时间段差&nbsp;&nbsp;</span> 时间段1： <input onClick="laydate()">
-									&nbsp; 时间段2： <input onClick="laydate()">&nbsp;&nbsp; <input
-										type="submit" value="查询">
-								</div>
 							</div>
 						</div>
 					</form>

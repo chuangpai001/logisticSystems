@@ -266,14 +266,15 @@
 						<h1>
 							分站的发票管理<span></span>
 						</h1>
-						<div>
-							<ul id="nav">
-								<li><a href="substationBillManage.html">发票领用</a></li>
-								<li><a href="invoiceBack.html">发票退回</a></li>
-								<li><a href="invoiceLost.html">发票作废及丢失</a></li>
-								<li><a href="selectInvoice.html">发票查询</a></li>
-							</ul>
-						</div>
+						
+							<div>
+								<ul id="nav">
+									<li><a href="substationBillManage.html">发票领用</a></li>
+									<li><a href="invoiceBack.html">发票退回</a></li>
+									<li><a href="invoiceLost.html">发票作废及丢失</a></li>
+									<li><a href="selectInvoice.html">发票查询</a></li>
+								</ul>
+							</div>
 						<div class="table_mod" style="width:450px;">
 							<div style="margin-top:10px;">
 								可使用的发票
@@ -290,11 +291,11 @@
 										<td>2017-07-15</td>
 									</tr>
 									<tr class="odd">
-										<td>0001</td>
+										<td>0002</td>
 										<td>2017-07-15</td>
 									</tr>
 									<tr class="odd">
-										<td>0001</td>
+										<td>0003</td>
 										<td>2017-07-15</td>
 									</tr>
 									</tbody>
@@ -308,21 +309,19 @@
 									</tr>
 									</tbody>
 								</table>
-								<button style="margin-left:400px;">提交</button><br>
+								<a style="padding-top:20px;margin-left:400px;"  href="substationBillManage.html" ><type=button id="add" class="btn_confirm">确定</a><br>
 								<table class="table">
 									领用发票
 									<thead>
 									<tr>
 										<th>发票号码</th>
 										<th>领用人姓名</th>
-										<th>操作</th>
 									</tr>
 									</thead>
 									<tbody class="th_list">
 									<tr class="odd">
 										<td>001</td>
 										<td>张三</td>
-										<td><a href="" style="color:#000000;">删除</a></td>
 									</tr>
 									</tbody>
 								</table>
@@ -383,11 +382,11 @@
 <script src="../../pageResource/charResource/assets/jquery-knob/js/jquery.knob.js" ></script><!-- JQUERY KNOB JS -->
 
 <style>
-	ul#nav{ width:100%; height:50px; background:#00A2CA;margin:0 auto}
-	ul#nav li{display:inline; height:50px}
-	ul#nav li a{display:inline-block; padding:0 20px; height:50px; line-height:50px;
-		color:#FFF; font-family:"\5FAE\8F6F\96C5\9ED1"; font-size:15px}
-	ul#nav li a:hover{background:#0095BB}
+	ul#nav{ width:100%; height:50px; background:#00A2CA;margin:0 auto} 
+ul#nav li{display:inline; height:50px} 
+ul#nav li a{display:inline-block; padding:0 20px; height:50px; line-height:50px;
+ color:#FFF; font-family:"\5FAE\8F6F\96C5\9ED1"; font-size:15px} 
+ul#nav li a:hover{background:#0095BB}
 	.btn-default {
 		display: inline-block;
 		margin-bottom: 0;
