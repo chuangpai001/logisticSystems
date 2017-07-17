@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://www.yunchehome.com/affiliated/headerAdd -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/jquery-ui.structure.min.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/jquery-ui.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/jquery-ui-timepicker.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/combo.select.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/aero.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/validform.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/gips.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/skin.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/style.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/console.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/commonstyle.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/font-awesome.min.css">
+    
+    <title>购货入库调拨单</title>
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="">
+
+
+
+
+    <script LANGUAGE="JavaScript">
+
+</script>
+    </head>
+
+<body class=" jqui">
+                <form  style="padding-left:50px" action="" method="post" id="addForm">
+
+    <div class="table_mod" style="max-width:150px">
+                    <BR><BR> <table  class="table" style="table">
+                        <colgroup>
+                            <col class="w_30">
+                        </colgroup>
+                        <thead>
+                        <tr class="thDiv">
+                            <th>商品名称</th>
+                            <th>商品代码</th>
+                            <th>进货量</th>
+                            <th>供应商</th>
+                        </tr>
+                        </thead>
+                        <tbody class="th_list">
+                        <tr class="odd">
+                            <td>佳洁士牙膏</td>
+                            <td>000153</td>
+                            <td>40</td>
+                            <td>佳洁士大连分公司</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>iphone7s</td>
+                            <td>006125</td>
+                            <td>24</td>
+                            <td>苹果中国有限公司</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>JAVA从入门到放弃</td>
+                            <td>005791</td>
+                            <td>20</td>
+                            <td>丁老头出版社</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>电子阅读器</td>
+                            <td>006888</td>
+                            <td>24</td>
+                            <td>亚马逊中国有限公司</td>
+                        </tr>
+                        </tbody>
+                        <tbody class="th_list">
+                        <tr class="odd">
+                        <th style="text-align:center;">&nbsp</th>
+                        <th style="text-align:center;">&nbsp</th>
+                       <th style="text-align:center;">&nbsp</th>
+                       <th style="text-align:center;">日期：2017/07/09</th>
+                        </tr>
+                        </tbody>
+                    </table>
+
+
+                   
+                </form>
+                <style>
+                <!--
+#t{width:100px}
+-->
+                .select {
+					border:1px solid #cccccc;
+					display: inline;
+					width:155px;
+						}
+                    .area .combo-select .combo-input {
+                        width: 66px;
+                        padding: 4px 0 4px 4px;
+                    }
+
+                    .area .combo-arrow:before {
+                        right: 3px;
+                    }
+
+                    .right {
+                        padding: 0 0 200px 0;
+                    }
+
+                    .left, .left .tabs {
+                        min-height: 1208px !important;
+                    }
+                </style>
+<form action="" method="post" id="addForm">
+
+                    <div class="add_btn" >
+                        <input type="hidden" name="operating" value="1">
+                        <input type="hidden" name="carNoType" value="0">
+                        <input type="hidden" name="g_tk" value="ef14ba425f3bedb88a0a50182baf4aceedfade91">
+                        
+                        <input type="button" class="btn_confirm" value="确认"onclick="docheck()">
+                        <button id="query" class="btn_confirm"onclick="window.close()">取消</button>
+ 
+                    </div>
+                </form>
+
+<script type="text/javascript" src="../../pageResource/require.js.下载"></script>
+<script type="text/javascript" src="../../pageResource/config.js.下载"></script>
+<script type="text/javascript">
+function docheck()
+{
+       alert("操作成功!");
+}
+</script>
+<script type="text/javascript">
+    /*<![CDATA[*/
+    require(['main/affiliated']);
+    /*]]>*/
+</script>
+
+<style>
+    .btn-default {
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        padding: 3px 8px;
+        font-size: 12px;
+        line-height: 1.42857143;
+        border-radius: 2px;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .btn-blue {
+        color: #fff;
+        background: #238bfa;
+        color : white;
+        border-color: #0a7ef9;
+    }
+    .btn-blue:hover {
+        color: #fff;
+        background: #0571e5;
+        border-color: #0460c2;
+    }
+    .btn-gray {
+        border-color: #adadad;
+    }
+    .btn-gray:hover {
+        background: #adadad;
+        color: #ffffff;
+    }
+
+
+
+    @font-face {font-family: "iconfont";
+        src: url('iconfont.eot'); /* IE9*/
+        src: url('iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('iconfont.woff') format('woff'), /* chrome, firefox */
+        url('iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+        url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+    }
+
+    .iconfont {
+        font-family:"iconfont" !important;
+        font-size:16px;
+        font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+    }
+</style>
+
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div><ins id="newBridge"></ins>
+</body></html>
