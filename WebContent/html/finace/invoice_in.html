@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/jquery-ui.structure.min.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/jquery-ui.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/jquery-ui-timepicker.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/combo.select.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/aero.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/validform.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/gips.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/skin.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/style.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/console.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/commonstyle.css">
+    <link rel="stylesheet" type="text/css" href="../../pageResource/font-awesome.min.css">
+    <link href="../../pageResource/charResource/css/bootstrap.min.css" rel="stylesheet"><!-- BOOTSTRAP CSS -->
+    <link href="../../pageResource/charResource/css/bootstrap-reset.css" rel="stylesheet"><!-- BOOTSTRAP CSS -->
+    <link href="../../pageResource/charResource/assets/font-awesome/css/font-awesome.css" rel="stylesheet"><!-- FONT AWESOME ICON CSS -->
+    <link href="../../pageResource/charResource/css/style.css" rel="stylesheet"><!-- THEME BASIC CSS -->
+    <link href="../../pageResource/charResource/css/style-responsive.css" rel="stylesheet"><!-- THEME RESPONSIVE CSS -->
+    <link href="../../pageResource/charResource/assets/morris.js-0.4.3/morris.css" rel="stylesheet"><!-- MORRIS CHART CSS -->
+    <link href="../../pageResource/charResource/css/clndr.css" rel="stylesheet">
+    <script src="../../pageResource/charResource/js/html5shiv.js">
+    </script>
+    <script src="../../pageResource/charResource/js/respond.min.js">
+    </script>
+</head>
+<title>物流管理系统</title>
+
+<body class=" jqui"  style="background-color: #ebebeb !important;"  >
+
+
+<div STYLE="background:#BEBEBE">
+    <div class="viewFramework-topbar ng-scope">
+        <div class="aliyun-console-topbar ng-scope ng-isolate-scope">
+            <div class="topbar-wrap topbar-clearfix">
+                <div class="topbar-head topbar-left">
+                    <a href="" target="_blank" class="topbar-logo topbar-left"><img src="../../pageResource/logo4.png"></a>
+                </div>
+                <div class="topbar-info topbar-right topbar-clearfix">
+                    <div class="topbar-qrcode topbar-left ng-scope">
+                        <a class="topbar-btn">
+                            <span class="icon-qrcode"></span>
+                            <span class="ng-scope ng-binding">咨询热线：021-59886610</span>
+                        </a>
+                    </div>
+                    <div class="topbar-qrcode topbar-left ng-scope">
+                        <a class="topbar-btn" href="">
+
+                            <span class="ng-scope ng-binding" id="logo">管理控制台</span>
+                        </a>
+                    </div>
+                    <div class="topbar-qrcode topbar-left ng-scope">
+                        <a class="topbar-btn" href="javascript:onclik=AddFavorite()">
+                            <span class=""></span>
+                            <span class="ng-scope ng-binding">收藏本站</span>
+                        </a>
+                    </div>
+                    <div class="topbar-qrcode topbar-left ng-scope">
+                        <a class="topbar-btn" href="">
+                            <span class="" style="width: 22px;height: 15px;position: absolute;top: 18px;"></span>
+                            <span class="ng-scope ng-binding" style="margin-left: 25px;" id="guide">新手指引</span>
+                        </a>
+                    </div>
+
+                    <div class="topbar-qrcode topbar-left ng-scope">
+                        <a class="topbar-btn" href="" target="_blank">
+                            <span class="icon-qrcode"></span>
+                            <span class="ng-scope ng-binding">微信公众号</span>
+                        </a>
+                        <div class="topbar-qrcode-panel">
+                            <div class="topbar-qrcode-image"><img src="../../pageResource/rec.jpg"></div>
+                            <div class="topbar-qrcode-title ng-binding" ng-bind-html="navLinks.qrcode.title">
+                                扫码关注微信公众账号
+                            </div>
+                        </div>
+                    </div>
+                    <!--                    <div class="topbar-qrcode topbar-left ng-scope">-->
+                    <!--                        <a class="topbar-btn" href="javascript:;" target="_blank">-->
+                    <!--                            <span class="icon-qrcode"></span>-->
+                    <!--                            <span class="ng-scope ng-binding">联系客服</span>-->
+                    <!--                        </a>-->
+                    <!--                        <div class="topbar-qrcode-panel">-->
+                    <!--                            <div class="topbar-qrcode-title ng-binding" ng-bind-html="navLinks.qrcode.title">全国热线电话<br>021-59886610</div>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+
+                    <div class="topbar-left topbar-user ng-scope">
+                        <div class="dropdown topbar-info-item">
+                            <a href="" class="dropdown-toggle topbar-btn"><span class="ng-binding">张伟</span><span class=""></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="topbar-info-btn ng-scope">
+                                    <a href="" target="_self">
+                                        <span class="ng-binding">退出</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>s
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="viewFramework-body viewFramework-sidebar-full" STYLE="background-color: #A8A8A8 !important;">
+        <div class="viewFramework-sidebar ng-scope">
+            <div class="sidebar-content ng-scope">
+                <div class="sidebar-inner ng-scope">
+                    <div class="sidebar-fold ng-scope "><i class="fa fa-sort-down"></i></div>
+                    <div class="sidebar-nav main-nav">
+                        <div class="sidebar-title">
+                            <div class="sidebar-title-inner ng-scope">
+                                <span style="padding-left: 20px;padding-right: 12px"><i class="fa fa-sort-down"></i></span>
+                                <span class="sidebar-title-text ng-binding">产品与服务</span>
+
+                            </div>
+                        </div>
+                        <ul class="sidebar-trans" style="height: 500px;">
+                            <li class="nav-item ng-scope">
+                                <a href="../mianPage.html" class="sidebar-trans ng-scope" title="主页 ">
+                                    <div class="nav-icon sidebar-trans"> <i class="fa fa-laptop">
+                                    </i></span></div>
+                                    <span class="nav-title ng-binding">主页&nbsp;</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ng-scope">
+                                <a href="" class="sidebar-trans ng-scope" title="客服中心 ">
+                                    <div class="nav-icon sidebar-trans"> <i class="fa fa-laptop">
+                                    </i></span></div>
+                                    <span class="nav-title ng-binding">客服中心&nbsp;</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ng-scope ">
+                                <a href="" class="sidebar-trans ng-scope" title="调控业务 ">
+                                    <div class="nav-icon sidebar-trans"><span ><i class="fa fa-level-down"></i></span></div>
+                                    <span class="nav-title ng-binding">调控业务&nbsp;</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ng-scope ">
+                                <a href="" class="sidebar-trans ng-scope" title="仓库管理 ">
+                                    <div class="nav-icon sidebar-trans"><span ></span><i class="fa fa-shopping-cart"></i></div>
+                                    <span class="nav-title ng-binding">仓库管理&nbsp;</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ng-scope ">
+                                <a href="" class="sidebar-trans ng-scope" title="配送中心 ">
+                                    <div class="nav-icon sidebar-trans"><span ><i class="fa  fa-truck"></i></span></div>
+                                    <span class="nav-title ng-binding">配送中心&nbsp;</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ng-scope ">
+                                <a href="" class="sidebar-trans ng-scope" title="分站管理 ">
+                                    <div class="nav-icon sidebar-trans"><span ><i class="fa fa-envelope-o"></i></span></div>
+                                    <span class="nav-title ng-binding">分站管理&nbsp;</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ng-scope active ">
+                                <a href="" class="sidebar-trans ng-scope active" title="财务中心 ">
+                                    <div class="nav-icon sidebar-trans"><span ><i class="fa fa-money"> </i></span></div>
+                                    <span class="nav-title ng-binding">财务中心&nbsp;</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ng-scope ">
+                                <a href="../memberManage/member_manage.html" class="sidebar-trans ng-scope" title="报表管理 ">
+                                    <div class="nav-icon sidebar-trans"><span ><i class="fa fa-bar-chart-o"></i></span></div>
+                                    <span class="nav-title ng-binding">成员管理&nbsp;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div   style="background-color: #ebebeb !important;" class="viewFramework-product viewFramework-product-col-1">
+
+            <div class="viewFramework-product-navbar ng-scope">
+                <div class="product-nav-stage ng-scope product-nav-stage-main">
+
+                    <div class="product-nav-scene product-nav-main-scene">
+                        <div class="product-nav-title ng-scope">操作菜单</div>
+                        <div class="ng-isolate-scope"></div>
+                        <div class="product-nav-list">
+                            <ul>
+                                <li class="nav-showchild">
+                                    <div class="ng-isolate-scope">
+                                        <a href="" class="ng-scope">
+                                            <div class="nav-icon">
+                                                <i class="fa fa-sort-down"></i>
+                                            </div>
+                                            <div class="nav-title">资金管理</div>
+                                        </a>
+                                    </div>
+                                    <ul class="ng-scope">
+                                        <li class="">
+                                            <div class="ng-isolate-scope">
+                                                <a href="http://localhost:63342/logisticsManageS/logisticSystem2.html" class="ng-scope">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">客户资金</div>
+                                                </a>
+                                            </div>
+                                        </li>
+
+
+                                    </ul>
+                                    <ul class="ng-scope">
+                                        <li class="active">
+                                            <div class="ng-isolate-scope ">
+                                                <a href="provider_count.html" class="ng-scope">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">供应商资金</div>
+                                                </a>
+                                            </div>
+                                        </li>
+
+
+                                    </ul>
+                                    <ul class="ng-scope">
+                                        <li class="">
+                                            <div class="ng-isolate-scope">
+                                                <a href="localStorage.html" class="ng-scope">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">分站资金</div>
+                                                </a>
+                                            </div>
+                                        </li>
+
+
+                                    </ul>
+                                </li>
+                                <li class="nav-showchild">
+                                    <div class="ng-isolate-scope">
+                                        <a href="" class="ng-scope">
+                                            <div class="nav-icon">
+                                                <span class="icon-arrow-down"></span>
+                                            </div>
+                                            <div class="nav-title">发票业务</div>
+                                        </a>
+                                    </div>
+                                    <ul class="ng-scope">
+                                        <li class="">
+                                            <div class="ng-isolate-scope">
+                                                <a href="invoice_register.html" class="ng-scope">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">发票生成</div>
+                                                </a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                    <ul class="ng-scope">
+                                        <li class="invoice.html">
+                                            <div class="ng-isolate-scope">
+                                                <a href="invoice_qurey.html " class="ng-scope">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">发票查询</div>
+                                                </a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                    <ul class="ng-scope">
+                                        <li class="">
+                                            <div class="ng-isolate-scope">
+                                                <a href="" class="ng-scope">
+                                                    <div class="nav-icon"></div>
+                                                    <div class="nav-title">更多发票操作</div>
+                                                </a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div><!-- /product nav -->
+            </div>
+            <div class="viewFramework-product-navbar-collapse ng-scope">
+                <div class="product-navbar-collapse-inner">
+                    <div class="product-navbar-collapse-bg"></div>
+                    <div class="product-navbar-collapse">
+                        <span class="icon-collapse-left"></span>
+                        <span class="icon-collapse-right"></span>
+                    </div>
+                </div>
+            </div>
+            <div style="height: auto" class="viewFramework-product-body" >
+
+                <div class="panel panel-primary" style="width: 1300px;height: auto;">
+                    <div class="panel-body ">
+                        <div class="the-invoice full invoice">
+                            <div class="the-invoice no-border bg-dark-blue" style="height: 90px">
+                                <!--BEGIN ROW-->
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <img style="padding-top: 10px" src="../../pageResource/logo4.png" class="logo-invoice" alt="Logo">
+                                    </div>
+                                    <!-- /.col-sm-6 -->
+                                    <div class="col-sm-6 text-right">
+                                        <address>
+                                            <strong>
+                                                腾云物流
+                                            </strong>
+                                            <br>
+                                            795 Folsom Ave, Suite 600
+                                            <br>
+                                            San Francisco, CA 94107
+                                            <br>
+                                            <abbr title="Phone">
+                                                P:
+                                            </abbr>
+                                            (123) 456-7890
+                                        </address>
+                                    </div>
+                                    <!-- /.col-sm-6 -->
+                                </div>
+                                <!-- /.row -->
+                            </div>
+                            <!-- /.the-invoice no-border bg-dark-blue -->
+                            <div class="the-invoice no-border" style="padding-top: 0">
+                                <h1 class="text-center">
+                                    购货入库单
+                                </h1>
+                                <h3 class="text-muted text-center">
+                                    #OLV0024
+                                </h3>
+                                <div class="row">
+
+                                    <!-- /.col-sm-6 -->
+                                    <div class="col-sm-13 text-right">
+                                        <p>
+                                            入库时间 : April 26, 2014
+                                        </p>
+                                    </div>
+                                    <!-- /.col-sm-6 -->
+                                </div>
+                                <!-- /.row -->
+                                <div class="table-responsive">
+                                    <table class="table table-th-block table-striped table-dark">
+                                        <thead>
+
+
+                                                <table class="table table-bordered table-striped table-condensed">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>
+                                                            编号
+                                                        </th>
+                                                        <th>
+                                                            商品名
+                                                        </th>
+                                                        <th class="numeric">
+                                                            价格
+                                                        </th>
+                                                        <th class="numeric">
+                                                            入库数量
+                                                        </th>
+
+                                                        <th class="numeric hidden-phone">
+                                                            结算金额
+                                                        </th>
+                                                        <th class="numeric hidden-phone">
+                                                            合计金额
+                                                        </th>
+                                                        <th class="numeric">
+                                                            日期
+                                                        </th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+
+                                                    <tr>
+                                                        <td>
+                                                            9
+                                                        </td>
+                                                        <td>
+                                                            芬达
+                                                        </td>
+                                                        <td class="numeric">
+                                                            $7.81
+                                                        </td>
+                                                        <td class="numeric">
+                                                            44
+                                                        </td>
+
+                                                        <td class="numeric hidden-phone">
+                                                            $7.82
+                                                        </td>
+                                                        <td class="numeric hidden-phone">
+                                                            $7.81
+                                                        </td>
+                                                        <td class="numeric">
+                                                            2017-7-10
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            10
+                                                        </td>
+                                                        <td>
+                                                            电脑
+                                                        </td>
+                                                        <td class="numeric">
+                                                            $13.82
+                                                        </td>
+                                                        <td class="numeric">
+                                                            44
+                                                        </td>
+
+                                                        <td class="numeric hidden-phone">
+                                                            $13.83
+                                                        </td>
+                                                        <td class="numeric hidden-phone">
+                                                            $13.67
+                                                        </td>
+                                                        <td class="numeric">
+                                                            2017-7-10
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            11
+                                                        </td>
+                                                        <td>
+                                                            老坛酸菜
+                                                        </td>
+                                                        <td class="numeric">
+                                                            $3.17
+                                                        </td>
+                                                        <td class="numeric">
+                                                            44
+                                                        </td>
+
+                                                        <td class="numeric hidden-phone">
+                                                            $3.22
+                                                        </td>
+                                                        <td class="numeric hidden-phone">
+                                                            $3.10
+                                                        </td>
+                                                        <td class="numeric">
+                                                            2017-7-10
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+
+
+                                        <tfoot>
+                                        <tr class="success">
+                                            <td colspan="6" class="text-right" >
+                                                TOTAL
+                                            </td>
+                                            <td class="text-right">
+                                                <strong>
+                                                    &#36;3500
+                                                </strong>
+                                            </td>
+                                        </tr>
+                                        <tr class="warning">
+                                            <td colspan="6" class="text-right">
+                                                TAX
+                                            </td>
+                                            <td class="text-right">
+                                                <strong>
+                                                    &#36;75
+                                                </strong>
+                                            </td>
+                                        </tr>
+                                        <tr class="danger">
+                                            <td colspan="6" class="text-right">
+                                                合计
+                                            </td>
+                                            <td class="text-right">
+                                                <strong>
+                                                    &#36;3570
+                                                </strong>
+                                            </td>
+                                        </tr>
+                                        </tfoot>
+                                                </table></thead></div></div>
+                                <!-- /.table-responsive -->
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <p>
+                                            <strong>
+                                                供应商：京东物流
+                                            </strong>
+                                        </p>
+                                        <address>
+                                            仓管员：王大佑
+                                            <br>
+                                            检验员 : 郭大国
+                                            <br>
+
+                                            仓库：百货仓B2C
+                                            <br>
+                                            入库单号 : 123456
+
+                                        </address>
+                                    </div>
+                                    <!-- /.col-sm-6 -->
+                                    <div class="col-sm-6 text-right">
+                                        <p>
+                                            <strong>
+                                                其他信息
+                                            </strong>
+                                        </p>
+                                        <p>
+                                         本条购货信息只为企业仓库预定入库信息，最终入库信息应结合退货单系统会自动给出
+                                            </p>
+                                    </div>
+                                    <!-- /.col-sm-6 -->
+                                </div>
+                                <!-- /.row -->
+
+                                <div class="text-center ">
+                                    <a class="btn btn-success btn-lg">
+                                        <i class="fa fa-check">
+                                        </i>
+                                        Submit Invoice
+                                    </a>
+                                    <a class="btn btn-primary btn-lg" target="_blank" href="">
+                                        <i class="fa fa-print">
+                                        </i>
+                                        Print
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- /.the-invoice no-border no-margin-->
+                        </div>
+                        <!-- /.the-invoice -->
+                        <!-- END INVOICE -->
+                    </div>
+                <div class="panel panel-primary" style="width: 1300px;height: auto;">
+                    <div class="panel-body ">
+                        <div class="the-invoice full invoice">
+                            <div class="the-invoice no-border bg-dark-blue" style="height: 90px">
+                                <!--BEGIN ROW-->
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <img style="padding-top: 10px" src="../../pageResource/logo4.png" class="logo-invoice" alt="Logo">
+                                    </div>
+                                    <!-- /.col-sm-6 -->
+                                    <div class="col-sm-6 text-right">
+                                        <address>
+                                            <strong>
+                                                腾云物流
+                                            </strong>
+                                            <br>
+                                            795 Folsom Ave, Suite 600
+                                            <br>
+                                            San Francisco, CA 94107
+                                            <br>
+                                            <abbr title="Phone">
+                                                P:
+                                            </abbr>
+                                            (123) 456-7890
+                                        </address>
+                                    </div>
+                                    <!-- /.col-sm-6 -->
+                                </div>
+                                <!-- /.row -->
+                            </div>
+                            <!-- /.the-invoice no-border bg-dark-blue -->
+                            <div class="the-invoice no-border" style="padding-top: 0">
+                                <h1 class="text-center">
+                                   退货单
+                                </h1>
+                                <h3 class="text-muted text-center">
+                                    #OLV0024
+                                </h3>
+                                <div class="row">
+
+                                    <!-- /.col-sm-6 -->
+                                    <div class="col-sm-13 text-right">
+                                        <p>
+                                            出库时间 : April 26, 2014
+                                        </p>
+                                    </div>
+                                    <!-- /.col-sm-6 -->
+                                </div>
+                                <!-- /.row -->
+                                <div class="table-responsive">
+                                    <table class="table table-th-block table-striped table-dark">
+                                        <thead>
+
+
+                                        <table class="table table-bordered table-striped table-condensed">
+                                            <thead>
+                                            <tr>
+                                                <th>
+                                                    编号
+                                                </th>
+                                                <th>
+                                                    商品名
+                                                </th>
+                                                <th class="numeric">
+                                                    价格
+                                                </th>
+                                                <th class="numeric">
+                                                    入库数量
+                                                </th>
+
+                                                <th class="numeric hidden-phone">
+                                                    结算金额
+                                                </th>
+                                                <th class="numeric hidden-phone">
+                                                    合计金额
+                                                </th>
+                                                <th class="numeric">
+                                                    日期
+                                                </th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+
+                                            <tr>
+                                                <td>
+                                                    9
+                                                </td>
+                                                <td>
+                                                    芬达
+                                                </td>
+                                                <td class="numeric">
+                                                    $7.81
+                                                </td>
+                                                <td class="numeric">
+                                                    44
+                                                </td>
+
+                                                <td class="numeric hidden-phone">
+                                                    $7.82
+                                                </td>
+                                                <td class="numeric hidden-phone">
+                                                    $7.81
+                                                </td>
+                                                <td class="numeric">
+                                                    2017-7-10
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    10
+                                                </td>
+                                                <td>
+                                                    电脑
+                                                </td>
+                                                <td class="numeric">
+                                                    $13.82
+                                                </td>
+                                                <td class="numeric">
+                                                    44
+                                                </td>
+
+                                                <td class="numeric hidden-phone">
+                                                    $13.83
+                                                </td>
+                                                <td class="numeric hidden-phone">
+                                                    $13.67
+                                                </td>
+                                                <td class="numeric">
+                                                    2017-7-10
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    11
+                                                </td>
+                                                <td>
+                                                    老坛酸菜
+                                                </td>
+                                                <td class="numeric">
+                                                    $3.17
+                                                </td>
+                                                <td class="numeric">
+                                                    44
+                                                </td>
+
+                                                <td class="numeric hidden-phone">
+                                                    $3.22
+                                                </td>
+                                                <td class="numeric hidden-phone">
+                                                    $3.10
+                                                </td>
+                                                <td class="numeric">
+                                                    2017-7-10
+                                                </td>
+                                            </tr>
+                                            </tbody>
+
+
+                                            <tfoot>
+                                            <tr class="success">
+                                                <td colspan="6" class="text-right" >
+                                                    TOTAL
+                                                </td>
+                                                <td class="text-right">
+                                                    <strong>
+                                                        &#36;3500
+                                                    </strong>
+                                                </td>
+                                            </tr>
+                                            <tr class="warning">
+                                                <td colspan="6" class="text-right">
+                                                    TAX
+                                                </td>
+                                                <td class="text-right">
+                                                    <strong>
+                                                        &#36;75
+                                                    </strong>
+                                                </td>
+                                            </tr>
+                                            <tr class="danger">
+                                                <td colspan="6" class="text-right">
+                                                    合计
+                                                </td>
+                                                <td class="text-right">
+                                                    <strong>
+                                                        &#36;3570
+                                                    </strong>
+                                                </td>
+                                            </tr>
+                                            </tfoot>
+                                        </table></thead></div></div>
+                            <!-- /.table-responsive -->
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <p>
+                                        <strong>
+                                            供应商：京东物流
+                                        </strong>
+                                    </p>
+                                    <address>
+                                        仓管员：王大佑
+                                        <br>
+                                        检验员 : 郭大国
+                                        <br>
+
+                                        仓库：百货仓B2C
+                                        <br>
+                                        入库单号 : 123456
+
+                                    </address>
+                                </div>
+                                <!-- /.col-sm-6 -->
+                                <div class="col-sm-6 text-right">
+                                    <p>
+                                        <strong>
+                                            其他信息
+                                        </strong>
+                                    </p>
+                                    <p>
+                                        本条购货信息只为企业仓库预定入库信息，最终入库信息应结合退货单系统会自动给出
+                                    </p>
+                                </div>
+                                <!-- /.col-sm-6 -->
+                            </div>
+                            <!-- /.row -->
+
+                            <div class="text-center ">
+                                <a class="btn btn-success btn-lg">
+                                    <i class="fa fa-check">
+                                    </i>
+                                    Submit Invoice
+                                </a>
+                                <a class="btn btn-primary btn-lg" target="_blank" href="">
+                                    <i class="fa fa-print">
+                                    </i>
+                                    Print
+                                </a>
+                            </div>
+                        </div>
+                        <!-- /.the-invoice no-border no-margin-->
+                    </div>
+                    <!-- /.the-invoice -->
+                    <!-- END INVOICE -->
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<script type="text/javascript" src="../../pageResource/require.js.下载"></script>
+<script type="text/javascript" src="../../pageResource/config.js.下载"></script>
+<script type="text/javascript">
+
+</script>
+<script src="../../pageResource/charResource/js/jquery-1.8.3.min.js" ></script><!-- BASIC JQUERY 1.8.3 LIB. JS -->
+<script src="../../pageResource/charResource/js/bootstrap.min.js" ></script><!-- BOOTSTRAP JS -->
+<script src="../../pageResource/charResource/js/jquery.dcjqaccordion.2.7.js"></script><!-- ACCORDIN JS -->
+<script src="../../pageResource/charResource/js/jquery.scrollTo.min.js" ></script><!-- SCROLLTO JS -->
+<script src="../../pageResource/charResource/js/jquery.nicescroll.js" ></script><!-- NICESCROLL JS -->
+<script src="../../pageResource/charResource/js/respond.min.js" ></script><!-- RESPOND JS -->
+<script src="../../pageResource/charResource/js/jquery.sparkline.js"></script><!-- SPARKLINE JS -->
+<script src="../../pageResource/charResource/js/sparkline-chart.js"></script><!-- SPARKLINE CHART JS -->
+<script src="../../pageResource/charResource/js/common-scripts.js"></script><!-- BASIC COMMON JS -->
+<script src="../../pageResource/charResource/js/count.js"></script><!-- COUNT JS -->
+<!--Morris-->
+<script src="../../pageResource/charResource/assets/morris.js-0.4.3/morris.min.js" ></script><!-- MORRIS JS -->
+<script src="../../pageResource/charResource/assets/morris.js-0.4.3/raphael-min.js" ></script><!-- MORRIS  JS -->
+<script src="../../pageResource/charResource/js/chart.js" ></script><!-- CHART JS -->
+<!--Calendar-->
+<script src="../../pageResource/charResource/js/calendar/clndr.js"></script><!-- CALENDER JS -->
+<script src="../../pageResource/charResource/js/calendar/evnt.calendar.init.js"></script><!-- CALENDER EVENT JS -->
+<script src="../../pageResource/charResource/js/calendar/moment-2.2.1.js"></script><!-- CALENDER MOMENT JS -->
+
+<script src="../../pageResource/charResource/assets/jquery-knob/js/jquery.knob.js" ></script><!-- JQUERY KNOB JS -->
+
+<style>
+    .btn-default {
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        padding: 3px 8px;
+        font-size: 12px;
+        line-height: 1.42857143;
+        border-radius: 2px;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .btn-blue {
+        color: #fff;
+        background: #238bfa;
+        color : white;
+        border-color: #0a7ef9;
+    }
+    .btn-blue:hover {
+        color: #fff;
+        background: #0571e5;
+        border-color: #0460c2;
+    }
+    .btn-gray {
+        border-color: #adadad;
+    }
+    .btn-gray:hover {
+        background: #adadad;
+        color: #ffffff;
+    }
+
+
+
+
+</style>
+
+
