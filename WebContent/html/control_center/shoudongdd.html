@@ -136,7 +136,7 @@
 									<span class="nav-title ng-binding">客服中心&nbsp;</span>
 								</a>
 							</li>
-							<li class="nav-item ng-scope  active">
+							<li class="nav-item ng-scope active ">
 								<a href="../control_center/rwchaxun.html" class="sidebar-trans ng-scope" title="调控业务 ">
 									<div class="nav-icon sidebar-trans"><span ><i class="fa fa-level-down"></i></span></div>
 									<span class="nav-title ng-binding">调控业务&nbsp;</span>
@@ -181,6 +181,9 @@
 		<div class="viewFramework-product viewFramework-product-col-1">
 
 			<div class="viewFramework-product-navbar ng-scope">
+
+
+
 
 
 				<div class="product-nav-list">
@@ -236,105 +239,184 @@
 
 			<div class="viewFramework-product-body">
 
+
 				<form action="" method="post" id="addForm">
-					<div class="add_mod">
-						<h1>
-							调拨成功<span></span>
-						</h1>
 
-						<div class="table_mod">
-							<table class="table">
-								<colgroup>
-									<col class="w_30">
-								</colgroup>
-								<thead>
-								<tr class="thDiv">
-
-									<th>订单号</th>
-
-									<th>调拨单号</th>
-									<th>任务单号</th>
-
-
-								</tr>
-								</thead>
-								<tbody class="th_list">
-								<tr class="odd">
-
-									<td><a href="xiangxiorder.html">D001</a></td>
-									<td> <a href="diaodu.html">D3482942790232</a></td>
-
-
-									<td><a href ="renwuxiangqing.html">R637485995847</a></td>
-
-
-								</tr>
-								</tbody>
-								<tbody class="th_list">
-								<tr class="odd">
-
-									<td>D002</td>
-									<td> D754872354253</td>
-
-
-									<td>R637485995847</td>
-
-
-								</tr>
-								</tbody>
-
-							</table>
+					<div class="table_mod">
+						<table class="table">
+							<colgroup>
+								<col class="w_30">
+							</colgroup>
+							<thead>
+							<tr class="thDiv">
+								<th>订单号</th>
+								<th>订单类型</th>
+								<th>订单状态</th>
+								<th>客户姓名</th>
+								<th>送货日期</th>
+								<th>录入员</th>
+								<th>收货人</th>
+								<th>收货地址</th>
+								<th>电话</th>
+								<th>邮编</th>
+								<th>是否索要发票</th>
+								<th>备注</th>
+								<th>执行任务分站</th>
+								<th>  </th>
+								<th>    </th>
+							</tr>
+							</thead>
+							<tbody class="th_list">
+							<tr class="odd">
+								<td ><a href='shangpin.html'">D001</a></td>
+								<td>新订</td>
+								<td>可分配</td>
+								<td>张一</td>
+								<td>2017.8</td>
+								<td>xxx</td>
+								<td>张一</td>
+								<td>沙河口区软件园路8号</td>
+								<td>123943894832473</td>
+								<td>324242</td>
+								<td>是</td>
+								<td>无</td>
+								<td>  <select>
+									<option value=0>      </option>
+									<option value=1>甘井子分站</option>
+									<option value=2>沙河口分站</option>
+									<option value=3>南岗区分站</option>
 
 
+								</select>
+
+								</td>
+								<td><input type="checkbox" name="capital"
+										   data-capital-id="88" data-capital-e2="100000000"
+										   data-remark="啊啊啊啊" value="88"></td>
+
+
+
+							</tr>
+							</tbody>
+
+
+
+							<tbody class="th_list">
+							<tr class="odd">
+								<td ><a href='shangpin.html'">D002</a></td>
+								<td>新订</td>
+								<td>可分配</td>
+								<td>张二</td>
+								<td>2017.8</td>
+								<td>xxx</td>
+								<td>张二</td>
+								<td>甘井子区软件园路8号</td>
+								<td>123943894832473</td>
+								<td>324242</td>
+								<td>是</td>
+								<td>无</td>
+								<td>  <select>
+									<option value=0>      </option>
+									<option value=1>甘井子分站</option>
+									<option value=2>沙河口分站</option>
+									<option value=3>南岗区分站</option>
+
+
+								</select>
+								</td>
+								<td><input type="checkbox" name="capital"
+										   data-capital-id="88" data-capital-e2="100000000"
+										   data-remark="啊啊啊啊" value="88"></td>
+
+
+
+							</tr>
+							</tbody>
+							<tbody class="th_list">
+							<tr class="odd">
+								<td ><a href='shangpin.html'>D003</a></td>
+								<td>新订</td>
+								<td>可分配</td>
+								<td>张三</td>
+								<td>2017.8</td>
+								<td>xxx</td>
+								<td>张三</td>
+								<td>南岗区软件园路29号</td>
+								<td>123943894832473</td>
+								<td>324242</td>
+								<td>是</td>
+								<td>无</td>
+								<td>  <select>
+									<option value=0>      </option>
+									<option value=1>甘井子分站</option>
+									<option value=2>沙河口分站</option>
+									<option value=3>南岗区分站</option>
+
+
+								</select>
+								</td>
+								<td><input type="checkbox" name="capital"
+										   data-capital-id="88" data-capital-e2="100000000"
+										   data-remark="啊啊啊啊" value="88"></td>
+
+
+
+							</tr>
+							</tbody>
+							<tbody class="th_list">
+							<tr class="odd">
+								<td ><a href='shangpin.html'>D004</a></td>
+								<td>新订</td>
+								<td>可分配</td>
+								<td>张四</td>
+								<td>2017.8</td>
+								<td>xxx</td>
+								<td>张四</td>
+								<td>沙河口区软件园路8号</td>
+								<td>123943894832473</td>
+								<td>324242</td>
+								<td>是</td>
+								<td>无</td>
+								<td>  <select>
+									<option value=0>      </option>
+									<option value=1>甘井子分站</option>
+									<option value=2>沙河口分站</option>
+									<option value=3>南岗区分站</option>
+
+
+								</select>
+								</td>
+								<td><input type="checkbox" name="capital"
+										   data-capital-id="88" data-capital-e2="100000000"
+										   data-remark="啊啊啊啊" value="88"></td>
+
+
+							</tr>
+							</tbody>
+							</tr>
+							</tbody>
+						</table>
+
+
+
+						<div class="add_btn" >
+							<input type="hidden" name="operating" value="1"> <input
+								type="hidden" name="carNoType" value="0"> <input
+								type="hidden" name="g_tk"
+								value="ef14ba425f3bedb88a0a50182baf4aceedfade91">
+
+							<a href="chenggong.html" ><type=button id="add" class="btn_confirm">调度</button></a>
 						</div>
-
-
-
-
-
-
-					</div>
-
-					<div class="add_btn">
-						<input type="hidden" name="operating" value="1"> <input
-							type="hidden" name="carNoType" value="0"> <input
-							type="hidden" name="g_tk"
-							value="ef14ba425f3bedb88a0a50182baf4aceedfade91">
-						<a style="padding-top:20px;padding-left:20px"  href="dangqianorder.html" ><type=button id="add" class="btn_confirm">确认</a>
-						<a href="shoudongdd.html" ><type=button id="add" class="btn_back">返回</button></a>
-
-					</div>
 				</form>
-				<style>
-					.area .combo-select .combo-input {
-						width: 66px;
-						padding: 4px 0 4px 4px;
-					}
-
-					.area .combo-arrow:before {
-						right: 3px;
-					}
-
-					.right {
-						padding: 0 0 200px 0;
-					}
-
-					.left, .left .tabs {
-						min-height: 1208px !important;
-					}
-				</style>
-
 			</div>
-		</div>
-	</div>
-	<script>
-        ;!function(){
-            laydate({
-                elem: '#date2'
-            })
-        }();
-	</script>
-</div></body>
+			<script>
+                ;!function(){
+                    laydate({
+                        elem: '#date2'
+                    })
+                }();
+			</script>
+		</div></body>
 
 <script type="text/javascript" src="../../pageResource/require.js.下载"></script>
 <script type="text/javascript" src="../../pageResource/config.js.下载"></script>

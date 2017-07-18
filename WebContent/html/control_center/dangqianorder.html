@@ -28,7 +28,7 @@
 	</script>
 	<script src="../../pageResource/charResource/js/respond.min.js">
 	</script>
-
+	<script src="../../pageResource/laydate/laydate.js"></script>
 </head>
 <title>物流管理系统</title>
 
@@ -129,20 +129,20 @@
 									<span class="nav-title ng-binding">主页&nbsp;</span>
 								</a>
 							</li>
-							<li class="nav-item ng-scope">
+							<li class="nav-item ng-scope ">
 								<a href="../cutomer_service/chaxun.html" class="sidebar-trans ng-scope" title="客服中心 ">
 									<div class="nav-icon sidebar-trans"> <i class="fa fa-laptop">
 									</i></span></div>
 									<span class="nav-title ng-binding">客服中心&nbsp;</span>
 								</a>
 							</li>
-							<li class="nav-item ng-scope  ">
+							<li class="nav-item ng-scope  active">
 								<a href="../control_center/chaxun.html" class="sidebar-trans ng-scope" title="调控业务 ">
 									<div class="nav-icon sidebar-trans"><span ><i class="fa fa-level-down"></i></span></div>
 									<span class="nav-title ng-binding">调控业务&nbsp;</span>
 								</a>
 							</li>
-							<li class="nav-item ng-scope active">
+							<li class="nav-item ng-scope ">
 								<a href="../center_warehouse/central_warehouse_management.html" class="sidebar-trans ng-scope" title="仓库管理 ">
 									<div class="nav-icon sidebar-trans"><span ></span><i class="fa fa-shopping-cart"></i></div>
 									<span class="nav-title ng-binding">仓库管理&nbsp;</span>
@@ -186,64 +186,22 @@
 
 
 
-				<div class="product-nav-list"  style="max-width:1310px"
-				>
+				<div class="product-nav-list">
 					<ul>
 						<li class="">
 							<div class="ng-isolate-scope">
 								<a href="dangqianorder.html" class="ng-scope">
 									<div class="nav-icon"></div>
-									<div class="nav-title">操作菜单</div>
+									<div class="nav-title">当前订单</div>
 								</a>
 							</div>
 							<ul class="">
-								<li class="active">
-									<div class="ng-isolate-scope">
-										<a href="dangqianoredr.html" class="ng-scope">
-											<div class="nav-icon"></div>
 
-											<div class="nav-title">当前订单</div>
-										</a>
-									</div>
-								</li>
 								<li class="">
 									<div class="ng-isolate-scope">
-										<a href="diaoduorder.html" class="ng-scope">
+										<a href="rwchaxun.html" class="ng-scope">
 											<div class="nav-icon"></div>
-
-											<div class="nav-title">商品调度</div>
-										</a>
-									</div>
-								</li>
-								<li class="">
-									<div class="ng-isolate-scope">
-										<a href="renwuorder.html" class="ng-scope">
-											<div class="nav-icon"></div>
-											<div class="nav-title">任务单</div>
-										</a>
-									</div>
-								</li>
-								<li class="">
-									<div class="ng-isolate-scope">
-										<a href="xiangxiorder.html" class="ng-scope">
-											<div class="nav-icon"></div>
-											<div class="nav-title">详细订单</div>
-										</a>
-									</div>
-								</li>
-								<li class="">
-									<div class="ng-isolate-scope">
-										<a href="chaxun.html" class="ng-scope">
-											<div class="nav-icon"></div>
-											<div class="nav-title">查询任务单</div>
-										</a>
-									</div>
-								</li>
-								<li class="">
-									<div class="ng-isolate-scope">
-										<a href="guaqi.html" class="ng-scope">
-											<div class="nav-icon"></div>
-											<div class="nav-title">查询挂起订单</div>
+											<div class="nav-title">任务单查询</div>
 										</a>
 									</div>
 								</li>
@@ -251,15 +209,15 @@
 									<div class="ng-isolate-scope">
 										<a href="dbchaxun.html" class="ng-scope">
 											<div class="nav-icon"></div>
-											<div class="nav-title">查询调拨订单</div>
+											<div class="nav-title">调拨单查询</div>
 										</a>
 									</div>
 								</li>
 								<li class="">
 									<div class="ng-isolate-scope">
-										<a href="chenggong.html" class="ng-scope">
+										<a href="guaqi.html" class="ng-scope">
 											<div class="nav-icon"></div>
-											<div class="nav-title">调拨成功</div>
+											<div class="nav-title">订单状态</div>
 										</a>
 									</div>
 								</li>
@@ -282,75 +240,155 @@
 
 			<div class="viewFramework-product-body">
 
+				<div class="add_div_2">
+					<span class="name"><em class="star"></em>查询起始日期：</span>
+					<input style="width:220px;" type="text" class="ltxt" name="mobile" id="mobile" datatype="m" placeholder="2017.8" nullmsg="2017.8" errormsg="日期不正确"><a href="javascript:;" id="driverByMobile" style="margin-right:2px;">
+
+
+				</div>
+				<div class="add_div_2">
+					<span class="name"><em class="star"></em>查询截至日期：</span>
+					<input style="width:220px;" type="text" class="ltxt" name="mobile" id="mobile" datatype="m" placeholder="2017.8" nullmsg="2017.8" errormsg="日期不正确"><a href="javascript:;" id="driverByMobile" style="margin-right:2px;">
+					<a  href="gerenxinxi.html">查找</a>
+
+
+
+				</div>
+				<div class="add_div_2" >
+					<span class="name"><em class="star"></em>查询订单状态：</span>
+					<select>
+						<option value=0>可分配</option>
+						<option value=1>挂起</option>
+
+
+					</select>
+
+				</div>
+				<div class="add_div_2">
+					<span class="name"><em class="star"></em>查询订单类型：</span>
+					<select>
+						<option value=0>全部</option>
+						<option value=1>新订</option>
+						<option value=2>退订</option>
+						<option value=3>换货</option>
+						<option value=4>退货</option>
+
+
+					</select>
+					<a  href="gerenxinxi.html">重置</a>
+				</div>
 				<form action="" method="post" id="addForm">
-					<div class="add_mod">
-						<h1>
-							订单信息<span></span>
-						</h1>
-						<div class="add_div_2">
-							<span class="name"><em class="star">*</em>订单编号：</span> <input
-								style="width: 220px;" type="text" class="ltxt" name="mobile"
-								id="mobile" datatype="m" >
-						</div>
-						<div class="add_div_2">
-							<span class="name"><em class="star">*</em>商品编号：</span> <input
-								style="width: 220px;" type="text" class="ltxt" name="mobile"
-								id="mobile" datatype="m" >
-						</div>
 
-						<div class="add_div_2">
-							<span class="name"><em class="star">*</em>商品名称：</span> <input
-								style="width: 220px;" type="text" class="ltxt" name="mobile"
-								id="mobile" datatype="m">
-						</div>
-
-						<div class="add_div_2">
-							<span class="name"><em class="star">*</em>商品数量：</span> <input
-								style="width: 220px;" type="text" class="ltxt" name="mobile"
-								id="mobile" datatype="m">
-						</div>
+					<div class="table_mod">
+						<table class="table">
+							<colgroup>
+								<col class="w_30">
+							</colgroup>
+							<thead>
+							<tr class="thDiv">
+								<th>  </th>
+								<th>序号</th>
+								<th>订单号</th>
+								<th>处理日期</th>
+								<th>订单类型</th>
+								<th>任务状态</th>
+							</tr>
+							</thead>
+							<tbody class="th_list">
+							<tr class="odd">
+								<td><input type="checkbox" name="capital"
+										   data-capital-id="88" data-capital-e2="100000000"
+										   data-remark="啊啊啊啊" value="88"></td>
+								<td>1</td>
+								<td ><a href='xiangxiorder.html'">D001</a></td>
 
 
-						<div class="add_div_2">
-							<span class="name"><em class="star">*</em>订单类型：</span>
-							<select style="width: 230px;">
-								<option value=0>全部订单</option>
-								<option value=1>新订订单</option>
-								<option value=2>换货订单</option>
-								<option value=3>退货订单</option>
-								<option value=4>退订订单</option>
+								<td>2017.8</td>
+								<td>新订</td>
+								<td>可分配</td>
+							</tr>
+							</tbody>
+							<tbody class="th_list">
+							<tr class="odd">
+								<td><input type="checkbox" name="capital"
+										   data-capital-id="88" data-capital-e2="100000000"
+										   data-remark="啊啊啊啊" value="88"></td>
+								<td>2</td>
+								<td >D002</td>
 
-							</select>
-						</div>
+								<td>2017.8</td>
+								<td>退订</td>
+								<td>可分配</td>
+							</tr>
+							</tbody>
+							<tbody class="th_list">
+							<tr class="odd">
+								<td><input type="checkbox" name="capital"
+										   data-capital-id="88" data-capital-e2="100000000"
+										   data-remark="啊啊啊啊" value="88"></td>
+								<td>3</td>
+								<td >D003</td>
 
-						<div class="add_div_2">
-							<span class="name"><em class="star">*</em>订单状态：</span>
-							<select style="width: 230px;">
-								<option value=0>未调度</option>
-								<option value=1>可分配</option>
-								<option value=2>已分配</option>
-								<option value=3>已领货</option>
-								<option value=4>完成</option>
-								<option value=4>失败</option>
+								<td>2017.8</td>
+								<td>退货</td>
+								<td>可分配</td>
+							</tr>
+							</tbody>
+							<tbody class="th_list">
+							<tr class="odd">
+								<td><input type="checkbox" name="capital"
+										   data-capital-id="88" data-capital-e2="100000000"
+										   data-remark="啊啊啊啊" value="88"></td>
+								<td>4</td>
+								<td >D004</td>
 
-							</select>
+								<td>2017.8</td>
+								<td>换货</td>
+								<td>可分配</td>
+							</tr>
+							</tbody>
+							<tbody class="th_list">
+							<tr class="odd">
+								<td><input type="checkbox" name="capital"
+										   data-capital-id="88" data-capital-e2="100000000"
+										   data-remark="啊啊啊啊" value="88"></td>
+								<td>5</td>
+								<td >D005</td>
 
-						</div>
+								<td>2017.8</td>
+								<td>退订</td>
+								<td>可分配</td>
+							</tr>
+							</tbody>
+							<tbody class="th_list">
+							<tr class="odd">
+								<td><input type="checkbox" name="capital"
+										   data-capital-id="88" data-capital-e2="100000000"
+										   data-remark="啊啊啊啊" value="88"></td>
+								<td>6</td>
 
+								<td >D006</td>
 
+								<td>2017.8</td>
+								<td>新订</td>
+								<td>可分配</td>
+							</tr>
+							</tbody>
+						</table>
 
 
 					</div>
 
 
-					<div class="add_btn" >
-						<input type="hidden" name="operating" value="1"> <input
-							type="hidden" name="carNoType" value="0"> <input
-							type="hidden" name="g_tk"
-							value="ef14ba425f3bedb88a0a50182baf4aceedfade91">
-						<a href="xiangxiorder.html" ><type=button id="add" class="btn_confirm">确定</button></a>
-						<a href="dangqianorder.html" ><type=button id="add" class="btn_back">返回</button></a>
-					</div>
+				</form>
+				<div class="add_btn" >
+					<input type="hidden" name="operating" value="1"> <input
+						type="hidden" name="carNoType" value="0"> <input
+						type="hidden" name="g_tk"
+						value="ef14ba425f3bedb88a0a50182baf4aceedfade91">
+
+					<a href="chenggong.html" ><type=button id="add" class="btn_confirm">自动调度</button></a>
+				</div>
 				</form>
 				<style>
 					.area .combo-select .combo-input {
@@ -374,7 +412,13 @@
 			</div>
 		</div>
 	</div>
-
+	<script>
+        ;!function(){
+            laydate({
+                elem: '#date2'
+            })
+        }();
+	</script>
 </div></body>
 
 <script type="text/javascript" src="../../pageResource/require.js.下载"></script>

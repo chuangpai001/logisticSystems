@@ -136,7 +136,7 @@
 									<span class="nav-title ng-binding">客服中心&nbsp;</span>
 								</a>
 							</li>
-							<li class="nav-item ng-scope  active">
+							<li class="nav-item ng-scope active  ">
 								<a href="../control_center/rwchaxun.html" class="sidebar-trans ng-scope" title="调控业务 ">
 									<div class="nav-icon sidebar-trans"><span ><i class="fa fa-level-down"></i></span></div>
 									<span class="nav-title ng-binding">调控业务&nbsp;</span>
@@ -181,6 +181,7 @@
 		<div class="viewFramework-product viewFramework-product-col-1">
 
 			<div class="viewFramework-product-navbar ng-scope">
+
 
 
 				<div class="product-nav-list">
@@ -236,74 +237,85 @@
 
 			<div class="viewFramework-product-body">
 
+
 				<form action="" method="post" id="addForm">
-					<div class="add_mod">
-						<h1>
-							调拨成功<span></span>
-						</h1>
 
-						<div class="table_mod">
-							<table class="table">
-								<colgroup>
-									<col class="w_30">
-								</colgroup>
-								<thead>
-								<tr class="thDiv">
-
-									<th>订单号</th>
-
-									<th>调拨单号</th>
-									<th>任务单号</th>
-
-
-								</tr>
-								</thead>
-								<tbody class="th_list">
-								<tr class="odd">
-
-									<td><a href="xiangxiorder.html">D001</a></td>
-									<td> <a href="diaodu.html">D3482942790232</a></td>
-
-
-									<td><a href ="renwuxiangqing.html">R637485995847</a></td>
+					<div class="table_mod">
+						<table class="table">
+							<colgroup>
+								<col class="w_30">
+							</colgroup>
+							<thead>
+							<tr class="thDiv">
+								<th>订单号</th>
+								<th>订单类型</th>
+								<th>订单状态</th>
+								<th>客户姓名</th>
+								<th>送货日期</th>
+								<th>录入员</th>
+								<th>收货人</th>
+								<th>地址</th>
+								<th>电话</th>
+								<th>邮编</th>
+								<th>是否要发票</th>
+								<th>执行任务分站</th>
+								<th>备注</th>
+							</tr>
+							</thead>
+							<tbody class="th_list">
+							<tr class="odd">
 
 
-								</tr>
-								</tbody>
-								<tbody class="th_list">
-								<tr class="odd">
+								<td ><a href='xiangxiorder.html'">D001</a></td>
 
-									<td>D002</td>
-									<td> D754872354253</td>
+								<td>新订</td>
 
-
-									<td>R637485995847</td>
-
-
-								</tr>
-								</tbody>
-
-							</table>
-
-
-						</div>
+								<td>    <select>
+									<option value=0>   </option>
+									<option value=1>挂起 </option>
+									<option value=2>可分配</option>
 
 
 
+								</select></td>
 
+								<td>张一</td>
+
+								<td>2017.8</td>
+
+								<td>xxx</td>
+
+								<td>张一</td>
+
+								<td>软件园路8号</td>
+
+								<td>126376463532</td>
+
+								<td>253645</td>
+
+								<td>是</td>
+								<td>沙河口分站</td>
+
+
+								<td>无</td>
+
+							</tr>
+							</tbody>
+						</table>
 
 
 					</div>
 
-					<div class="add_btn">
-						<input type="hidden" name="operating" value="1"> <input
-							type="hidden" name="carNoType" value="0"> <input
-							type="hidden" name="g_tk"
-							value="ef14ba425f3bedb88a0a50182baf4aceedfade91">
-						<a style="padding-top:20px;padding-left:20px"  href="dangqianorder.html" ><type=button id="add" class="btn_confirm">确认</a>
-						<a href="shoudongdd.html" ><type=button id="add" class="btn_back">返回</button></a>
 
-					</div>
+				</form>
+				<div class="add_btn" >
+					<input type="hidden" name="operating" value="1"> <input
+						type="hidden" name="carNoType" value="0"> <input
+						type="hidden" name="g_tk"
+						value="ef14ba425f3bedb88a0a50182baf4aceedfade91">
+
+					<a href="chenggong.html" ><type=button id="add" class="btn_back">返回</button></a>
+				</div>
 				</form>
 				<style>
 					.area .combo-select .combo-input {
@@ -326,88 +338,79 @@
 
 			</div>
 		</div>
-	</div>
-	<script>
-        ;!function(){
-            laydate({
-                elem: '#date2'
-            })
-        }();
-	</script>
-</div></body>
 
-<script type="text/javascript" src="../../pageResource/require.js.下载"></script>
-<script type="text/javascript" src="../../pageResource/config.js.下载"></script>
-<script type="text/javascript">
+		<script type="text/javascript" src="../../pageResource/require.js.下载"></script>
+		<script type="text/javascript" src="../../pageResource/config.js.下载"></script>
+		<script type="text/javascript">
 
-</script>
-<script src="../../pageResource/charResource/js/jquery-1.8.3.min.js" ></script><!-- BASIC JQUERY 1.8.3 LIB. JS -->
-<script src="../../pageResource/charResource/js/bootstrap.min.js" ></script><!-- BOOTSTRAP JS -->
-<script src="../../pageResource/charResource/js/jquery.dcjqaccordion.2.7.js"></script><!-- ACCORDIN JS -->
-<script src="../../pageResource/charResource/js/jquery.scrollTo.min.js" ></script><!-- SCROLLTO JS -->
-<script src="../../pageResource/charResource/js/jquery.nicescroll.js" ></script><!-- NICESCROLL JS -->
-<script src="../../pageResource/charResource/js/respond.min.js" ></script><!-- RESPOND JS -->
-<script src="../../pageResource/charResource/js/jquery.sparkline.js"></script><!-- SPARKLINE JS -->
-<script src="../../pageResource/charResource/js/sparkline-chart.js"></script><!-- SPARKLINE CHART JS -->
-<script src="../../pageResource/charResource/js/common-scripts.js"></script><!-- BASIC COMMON JS -->
-<script src="../../pageResource/charResource/js/count.js"></script><!-- COUNT JS -->
-<!--Morris-->
-<script src="../../pageResource/charResource/assets/morris.js-0.4.3/morris.min.js" ></script><!-- MORRIS JS -->
-<script src="../../pageResource/charResource/assets/morris.js-0.4.3/raphael-min.js" ></script><!-- MORRIS  JS -->
-<script src="../../pageResource/charResource/js/chart.js" ></script><!-- CHART JS -->
-<!--Calendar-->
-<script src="../../pageResource/charResource/js/calendar/clndr.js"></script><!-- CALENDER JS -->
-<script src="../../pageResource/charResource/js/calendar/evnt.calendar.init.js"></script><!-- CALENDER EVENT JS -->
-<script src="../../pageResource/charResource/js/calendar/moment-2.2.1.js"></script><!-- CALENDER MOMENT JS -->
+		</script>
+		<script src="../../pageResource/charResource/js/jquery-1.8.3.min.js" ></script><!-- BASIC JQUERY 1.8.3 LIB. JS -->
+		<script src="../../pageResource/charResource/js/bootstrap.min.js" ></script><!-- BOOTSTRAP JS -->
+		<script src="../../pageResource/charResource/js/jquery.dcjqaccordion.2.7.js"></script><!-- ACCORDIN JS -->
+		<script src="../../pageResource/charResource/js/jquery.scrollTo.min.js" ></script><!-- SCROLLTO JS -->
+		<script src="../../pageResource/charResource/js/jquery.nicescroll.js" ></script><!-- NICESCROLL JS -->
+		<script src="../../pageResource/charResource/js/respond.min.js" ></script><!-- RESPOND JS -->
+		<script src="../../pageResource/charResource/js/jquery.sparkline.js"></script><!-- SPARKLINE JS -->
+		<script src="../../pageResource/charResource/js/sparkline-chart.js"></script><!-- SPARKLINE CHART JS -->
+		<script src="../../pageResource/charResource/js/common-scripts.js"></script><!-- BASIC COMMON JS -->
+		<script src="../../pageResource/charResource/js/count.js"></script><!-- COUNT JS -->
+		<!--Morris-->
+		<script src="../../pageResource/charResource/assets/morris.js-0.4.3/morris.min.js" ></script><!-- MORRIS JS -->
+		<script src="../../pageResource/charResource/assets/morris.js-0.4.3/raphael-min.js" ></script><!-- MORRIS  JS -->
+		<script src="../../pageResource/charResource/js/chart.js" ></script><!-- CHART JS -->
+		<!--Calendar-->
+		<script src="../../pageResource/charResource/js/calendar/clndr.js"></script><!-- CALENDER JS -->
+		<script src="../../pageResource/charResource/js/calendar/evnt.calendar.init.js"></script><!-- CALENDER EVENT JS -->
+		<script src="../../pageResource/charResource/js/calendar/moment-2.2.1.js"></script><!-- CALENDER MOMENT JS -->
 
-<script src="../../pageResource/charResource/assets/jquery-knob/js/jquery.knob.js" ></script><!-- JQUERY KNOB JS -->
+		<script src="../../pageResource/charResource/assets/jquery-knob/js/jquery.knob.js" ></script><!-- JQUERY KNOB JS -->
 
-<style>
-	ul#nav{ width:100%; height:50px; background:#00A2CA;margin:0 auto}
-	ul#nav li{display:inline; height:50px}
-	ul#nav li a{display:inline-block; padding:0 20px; height:50px; line-height:50px;
-		color:#FFF; font-family:"\5FAE\8F6F\96C5\9ED1"; font-size:15px}
-	ul#nav li a:hover{background:#0095BB}
-	.btn-default {
-		display: inline-block;
-		margin-bottom: 0;
-		font-weight: 400;
-		text-align: center;
-		vertical-align: middle;
-		touch-action: manipulation;
-		cursor: pointer;
-		border: 1px solid transparent;
-		white-space: nowrap;
-		padding: 3px 8px;
-		font-size: 12px;
-		line-height: 1.42857143;
-		border-radius: 2px;
-		-webkit-user-select: none;
-		-ms-user-select: none;
-		user-select: none;
-	}
-	.btn-blue {
-		color: #fff;
-		background: #238bfa;
-		color : white;
-		border-color: #0a7ef9;
-	}
-	.btn-blue:hover {
-		color: #fff;
-		background: #0571e5;
-		border-color: #0460c2;
-	}
-	.btn-gray {
-		border-color: #adadad;
-	}
-	.btn-gray:hover {
-		background: #adadad;
-		color: #ffffff;
-	}
+		<style>
+			ul#nav{ width:100%; height:50px; background:#00A2CA;margin:0 auto}
+			ul#nav li{display:inline; height:50px}
+			ul#nav li a{display:inline-block; padding:0 20px; height:50px; line-height:50px;
+				color:#FFF; font-family:"\5FAE\8F6F\96C5\9ED1"; font-size:15px}
+			ul#nav li a:hover{background:#0095BB}
+			.btn-default {
+				display: inline-block;
+				margin-bottom: 0;
+				font-weight: 400;
+				text-align: center;
+				vertical-align: middle;
+				touch-action: manipulation;
+				cursor: pointer;
+				border: 1px solid transparent;
+				white-space: nowrap;
+				padding: 3px 8px;
+				font-size: 12px;
+				line-height: 1.42857143;
+				border-radius: 2px;
+				-webkit-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+			.btn-blue {
+				color: #fff;
+				background: #238bfa;
+				color : white;
+				border-color: #0a7ef9;
+			}
+			.btn-blue:hover {
+				color: #fff;
+				background: #0571e5;
+				border-color: #0460c2;
+			}
+			.btn-gray {
+				border-color: #adadad;
+			}
+			.btn-gray:hover {
+				background: #adadad;
+				color: #ffffff;
+			}
 
 
 
 
-</style>
+		</style>
 
 </html>
