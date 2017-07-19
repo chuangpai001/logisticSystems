@@ -28,7 +28,7 @@
 	</script>
 	<script src="../../pageResource/charResource/js/respond.min.js">
 	</script>
-
+	<script src="../../pageResource/laydate/laydate.js"></script>
 </head>
 <title>物流管理系统</title>
 
@@ -129,20 +129,20 @@
 									<span class="nav-title ng-binding">主页&nbsp;</span>
 								</a>
 							</li>
-							<li class="nav-item ng-scope">
+							<li class="nav-item ng-scope ">
 								<a href="../cutomer_service/chaxun.html" class="sidebar-trans ng-scope" title="客服中心 ">
 									<div class="nav-icon sidebar-trans"> <i class="fa fa-laptop">
 									</i></span></div>
 									<span class="nav-title ng-binding">客服中心&nbsp;</span>
 								</a>
 							</li>
-							<li class="nav-item ng-scope  ">
-								<a href="../control_center/chaxun.html" class="sidebar-trans ng-scope" title="调控业务 ">
+							<li class="nav-item ng-scope active ">
+								<a href="../control_center/rwchaxun.html" class="sidebar-trans ng-scope" title="调控业务 ">
 									<div class="nav-icon sidebar-trans"><span ><i class="fa fa-level-down"></i></span></div>
 									<span class="nav-title ng-binding">调控业务&nbsp;</span>
 								</a>
 							</li>
-							<li class="nav-item ng-scope active">
+							<li class="nav-item ng-scope ">
 								<a href="../center_warehouse/central_warehouse_management.html" class="sidebar-trans ng-scope" title="仓库管理 ">
 									<div class="nav-icon sidebar-trans"><span ></span><i class="fa fa-shopping-cart"></i></div>
 									<span class="nav-title ng-binding">仓库管理&nbsp;</span>
@@ -183,66 +183,22 @@
 			<div class="viewFramework-product-navbar ng-scope">
 
 
-
-
-				<div class="product-nav-list"  style="max-width:1310px"
-				>
+				<div class="product-nav-list">
 					<ul>
 						<li class="">
 							<div class="ng-isolate-scope">
 								<a href="dangqianorder.html" class="ng-scope">
 									<div class="nav-icon"></div>
-									<div class="nav-title">操作菜单</div>
+									<div class="nav-title">当前订单</div>
 								</a>
 							</div>
 							<ul class="">
-								<li class="">
-									<div class="ng-isolate-scope">
-										<a href="diaoduorder.html" class="ng-scope">
-											<div class="nav-icon"></div>
 
-											<div class="nav-title">当前订单</div>
-										</a>
-									</div>
-								</li>
 								<li class="">
 									<div class="ng-isolate-scope">
-										<a href="diaoduorder.html" class="ng-scope">
+										<a href="rwchaxun.html" class="ng-scope">
 											<div class="nav-icon"></div>
-
-											<div class="nav-title">商品调度</div>
-										</a>
-									</div>
-								</li>
-								<li class="">
-									<div class="ng-isolate-scope">
-										<a href="renwuorder.html" class="ng-scope">
-											<div class="nav-icon"></div>
-											<div class="nav-title">任务单</div>
-										</a>
-									</div>
-								</li>
-								<li class="">
-									<div class="ng-isolate-scope">
-										<a href="xiangxiorder.html" class="ng-scope">
-											<div class="nav-icon"></div>
-											<div class="nav-title">详细订单</div>
-										</a>
-									</div>
-								</li>
-								<li class="">
-									<div class="ng-isolate-scope">
-										<a href="chaxun.html" class="ng-scope">
-											<div class="nav-icon"></div>
-											<div class="nav-title">查询任务单</div>
-										</a>
-									</div>
-								</li>
-								<li class="">
-									<div class="ng-isolate-scope">
-										<a href="guaqi.html" class="ng-scope">
-											<div class="nav-icon"></div>
-											<div class="nav-title">查询挂起订单</div>
+											<div class="nav-title">任务单查询</div>
 										</a>
 									</div>
 								</li>
@@ -250,15 +206,15 @@
 									<div class="ng-isolate-scope">
 										<a href="dbchaxun.html" class="ng-scope">
 											<div class="nav-icon"></div>
-											<div class="nav-title">查询调拨订单</div>
+											<div class="nav-title">调拨单查询</div>
 										</a>
 									</div>
 								</li>
 								<li class="">
 									<div class="ng-isolate-scope">
-										<a href="chenggong.html" class="ng-scope">
+										<a href="guaqi.html" class="ng-scope">
 											<div class="nav-icon"></div>
-											<div class="nav-title">调拨成功</div>
+											<div class="nav-title">订单状态</div>
 										</a>
 									</div>
 								</li>
@@ -282,117 +238,101 @@
 			<div class="viewFramework-product-body">
 
 				<div class="add_div_1">
-					<span class="name"><em class="star">*</em>日期：</span>
-					<input style="width:220px;" type="text" class="ltxt" name="mobile" id="mobile" datatype="m" placeholder="2017.8" nullmsg="2017.8" errormsg="日期不正确"><a href="javascript:;" id="driverByMobile" style="margin-right:2px;">
+					<span class="name"><em class="star"></em>商品信息：</span>
 
 
 				</div>
 
 				<form action="" method="post" id="addForm">
 
-					<div class="table_mod"
-					>
-						<table class="table"
-						>
+					<div class="table_mod">
+						<table class="table">
 							<colgroup>
-								<col class="w_30"
-								>
+								<col class="w_30">
 							</colgroup>
 							<thead>
-							<tr class="thDiv"
-							>
+							<tr class="thDiv">
 
-								<th>客户名</th>
+								<th>商品号</th>
 								<th>商品名称</th>
 								<th>商品数量</th>
-								<th>支付金额</th>
-								<th>地址</th>
-								<th>联系电话</th>
-								<th>要求完成日期</th>
+								<th>商品单价</th>
+								<th>商品总额</th>
+
 
 							</tr>
 							</thead>
 							<tbody class="th_list">
 							<tr class="odd">
 
-								<td>张三</td>
+								<td>Y234</td>
 
-								<td>家居</td>
+								<td>灯泡</td>
 								<td>4</td>
-								<td>200</td>
-								<td>大连东软信息学院</td>
-								<td>152436272</td>
-								<td>2017.8</td>
+								<td>4</td>
+								<td>16</td>
 
 							</tr>
 							</tbody>
 							<tbody class="th_list">
 							<tr class="odd">
-
-								<td>张三</td>
-
-								<td>日用品</td>
-								<td>1</td>
-								<td>10</td>
-								<td>大连东软信息学院</td>
-								<td>152436272</td>
-								<td>2017.8</td>
-
-							</tr>
-							</tbody>
-							<tbody class="th_list">
-							<tr class="odd">
-
-								<td>张三</td>
-
-								<td>食品</td>
-								<td>20</td>
-								<td>320</td>
-								<td>大连东软信息学院</td>
-								<td>152436272</td>
-								<td>2017.8</td>
-
-							</tr>
-							</tbody>
-							<tbody class="th_list">
-							<tr class="odd">
-
-								<td>张三</td>
-
-								<td>家具</td>
-								<td>1</td>
-								<td>240</td>
-								<td>大连东软信息学院</td>
-								<td>152436272</td>
-								<td>2017.8</td>
-
-							</tr>
-							</tbody>
-							<tbody class="th_list">
-							<tr class="odd">
-
-								<td>张三</td>
+								<td>Y987</td>
 
 								<td>衣服</td>
-								<td>11</td>
-								<td>1420</td>
-								<td>大连东软信息学院</td>
-								<td>152436272</td>
-								<td>2017.8</td>
+								<td>100</td>
+								<td>4</td>
+								<td>400</td>
 
 							</tr>
 							</tbody>
 							<tbody class="th_list">
 							<tr class="odd">
 
-								<td>张三</td>
+								<td>Y834</td>
 
-								<td>化妆品</td>
-								<td>1</td>
-								<td>630</td>
-								<td>大连东软信息学院</td>
-								<td>152436272</td>
-								<td>2017.8</td>
+								<td>键盘</td>
+								<td>2</td>
+								<td>40</td>
+								<td>80</td>
+
+
+							</tr>
+							</tbody>
+							<tbody class="th_list">
+							<tr class="odd">
+
+								<td>Y534</td>
+
+								<td>转椅</td>
+								<td>9</td>
+								<td>100</td>
+								<td>900</td>
+
+
+							</tr>
+							</tbody>
+							<tbody class="th_list">
+							<tr class="odd">
+
+								<td>Y584</td>
+
+								<td>鼠标</td>
+								<td>90</td>
+								<td>4</td>
+								<td>360</td>
+
+
+							</tr>
+							</tbody>
+							<tbody class="th_list">
+							<tr class="odd">
+								<td>Y035</td>
+
+								<td>家居</td>
+								<td>300</td>
+								<td>4</td>
+								<td>1200</td>
+
 
 							</tr>
 							</tbody>
@@ -406,8 +346,8 @@
 							type="hidden" name="carNoType" value="0"> <input
 							type="hidden" name="g_tk"
 							value="ef14ba425f3bedb88a0a50182baf4aceedfade91">
-						<a href="dangqianorder.html" ><type=button id="add" class="btn_confirm">确认</button></a>
-						<a href="chaxun.html" ><type=button id="add" class="btn_back">返回</button></a>
+
+						<a href="chenggong.html" ><type=button id="add" class="btn_back">返回</button></a>
 					</div>
 				</form>
 				<style>
@@ -432,7 +372,13 @@
 			</div>
 		</div>
 	</div>
-
+	<script>
+        ;!function(){
+            laydate({
+                elem: '#date2'
+            })
+        }();
+	</script>
 </div></body>
 
 <script type="text/javascript" src="../../pageResource/require.js.下载"></script>
